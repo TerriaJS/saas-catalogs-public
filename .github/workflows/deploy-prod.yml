@@ -30,7 +30,4 @@ jobs:
         id: runJs
         run: node index.js
         env:
-          ADDED_FILES: "${{ steps.files.outputs.added }}"
-          MODIFIED_FILES: "${{ steps.files.outputs.modified }}"
-          # REMOVED_FILES: "${{ steps.files.outputs.removed }}"
-          # RENAMED_FILES: "${{ steps.files.outputs.renamed }}"
+          CHANGED_FILES: "${{ steps.files.outputs.added }}"
