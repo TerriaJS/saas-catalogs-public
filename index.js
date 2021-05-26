@@ -4,6 +4,8 @@ const github = require("@actions/github");
 try {
   const changedFiles = core.getInput("changed-files");
   console.log(changedFiles);
+  
+  console.log(process.env);
 
   core.setOutput("test", changedFiles);
   // Get the JSON webhook payload for the event that triggered the workflow
