@@ -8,6 +8,8 @@ try {
   console.log(addedFiles);
   console.log(changedFiles);
 
+  // X-Magda-API-Key-Id & X-Magda-API-Key headers
+
   // core.setOutput("test", JSON.stringify(changedFiles));
 } catch (error) {
   core.setFailed(error.message);
