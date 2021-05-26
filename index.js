@@ -8,7 +8,7 @@ try {
   console.log(addedFiles);
   console.log(changedFiles);
 
-  console.log("test");
+  console.log(process.env);
 
   // core.setOutput("test", JSON.stringify(changedFiles));
 } catch (error) {
