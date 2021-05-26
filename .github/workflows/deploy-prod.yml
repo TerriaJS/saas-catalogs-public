@@ -30,7 +30,4 @@ jobs:
         id: runJs
         run: node index.js
         env:
-          CHANGED_FILES: "${{ steps.files.outputs.all }}"
-      # Use the output from the `hello` step
-      - name: Test
-        run: echo "${{ steps.runJs.outputs.test }}"
+          CHANGED_FILES: "${{ steps.files.outputs }}"

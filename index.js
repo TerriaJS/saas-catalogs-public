@@ -4,10 +4,11 @@ const github = require("@actions/github");
 try {
   console.log(process.env.CHANGED_FILES);
 
-  core.setOutput("test", process.env.CHANGED_FILES);
-  // Get the JSON webhook payload for the event that triggered the workflow
-  const payload = JSON.stringify(github.context.payload, undefined, 2);
-  console.log(`The event payload (test): ${payload}`);
+  const changedFiles = JSON.parse(process.env.CHANGED_FILES);
+
+  console.log(changedFiles);
+
+  // core.setOutput("test", JSON.stringify(changedFiles));
 } catch (error) {
   core.setFailed(error.message);
 }
