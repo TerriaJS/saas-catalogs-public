@@ -3,7 +3,7 @@ name: test
 on:
   push:
     branches:
-      - main
+      - test
   #   paths:
   #   - 'environments/prod/values.prod.yaml'
   #   - 'environments/prod/saas-app-prod/**'
@@ -27,8 +27,8 @@ jobs:
       - name: Run JS
         id: runJs
         run: node index.js
-        with:
-          changed-files: "${{ steps.files.outputs.all }}"
+        env:
+          CHANGED_FILES: "${{ steps.files.outputs.all }}"
       # Use the output from the `hello` step
       - name: Test
         run: echo "${{ steps.runJs.outputs.test }}"
