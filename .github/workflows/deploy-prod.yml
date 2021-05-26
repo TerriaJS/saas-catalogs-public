@@ -30,6 +30,8 @@ jobs:
         id: runJs
         run: node index.js
         env:
+          DEV_MAGDA_API_ID: ${{ secrets.DEV_MAGDA_API_ID }}
+          GCLOUD_KEY: ${{ secrets.GCLOUD_KEY_PROD }}
           ADDED_FILES: "${{ steps.files.outputs.added }}"
           MODIFIED_FILES: "${{ steps.files.outputs.modified }}"
           # REMOVED_FILES: "${{ steps.files.outputs.removed }}"
