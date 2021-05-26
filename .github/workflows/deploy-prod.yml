@@ -3,7 +3,7 @@ name: test
 on:
   pull_request:
     branches:
-      - test
+      - main
   #   paths:
   #   - 'environments/prod/values.prod.yaml'
   #   - 'environments/prod/saas-app-prod/**'
