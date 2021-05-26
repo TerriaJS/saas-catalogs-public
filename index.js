@@ -2,11 +2,13 @@ const core = require("@actions/core");
 const github = require("@actions/github");
 
 try {
-  const addedFiles = process.env.ADDED_FILES?.join(",") ?? [];
-  const changedFiles = process.env.CHANGED_FILES?.join(",") ?? [];
+  const addedFiles = (process.env.ADDED_FILES ?? "").split(",") ?? [];
+  const changedFiles = (process.env.CHANGED_FILES ?? "").split(",") ?? [];
 
   console.log(addedFiles);
   console.log(changedFiles);
+
+  console.log("test");
 
   // core.setOutput("test", JSON.stringify(changedFiles));
 } catch (error) {
