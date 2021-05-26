@@ -1,7 +1,7 @@
 name: test
 
 on:
-  pull_request:
+  push:
     branches:
       - main
   #   paths:
@@ -30,7 +30,4 @@ jobs:
         id: runJs
         run: node index.js
         env:
-          ADDED_FILES: "${{ steps.files.outputs.addedFormatted }}"
-          MODIFIED_FILES: "${{ steps.files.outputs.modified }}"
-          # REMOVED_FILES: "${{ steps.files.outputs.removed }}"
-          # RENAMED_FILES: "${{ steps.files.outputs.renamed }}"
+          CHANGED_FILES: "${{ steps.files.outputs }}"
