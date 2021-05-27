@@ -3,7 +3,7 @@ name: test
 on:
   push:
     branches:
-      - test2
+      - main
   #   paths:
   #   - 'environments/prod/values.prod.yaml'
   #   - 'environments/prod/saas-app-prod/**'
