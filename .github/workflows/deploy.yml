@@ -3,7 +3,7 @@ name: test
 on:
   push:
     branches:
-      - main
+      - test2
   #   paths:
   #   - 'environments/prod/values.prod.yaml'
   #   - 'environments/prod/saas-app-prod/**'
@@ -21,7 +21,7 @@ jobs:
       - id: files
         uses: jitterbit/get-changed-files@v1
         with:
-          format: "json"
+          format: "csv"
       - name: Checkout repo
         uses: actions/checkout@v2
       - name: yarn install
@@ -30,4 +30,8 @@ jobs:
         id: runJs
         run: node index.js
         env:
-          CHANGED_FILES: "${{ steps.files.outputs }}"
+          DEV_MAGDA_API_ID: ${{ secrets.DEV_MAGDA_API_ID }}
+          ADDED_FILES: "${{ steps.files.outputs.added }}"
+          MODIFIED_FILES: "${{ steps.files.outputs.modified }}"
+          # REMOVED_FILES: "${{ steps.files.outputs.removed }}"
+          # RENAMED_FILES: "${{ steps.files.outputs.renamed }}"
