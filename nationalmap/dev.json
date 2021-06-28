@@ -8841,7 +8841,7 @@
                             "colorPalette": "RdYlGn",
                             "colorColumn": "invest_year_str",
                             "legend": {
-                              "url": "http://localhost:8080/images/proposed-investment-legend.png"
+                              "url": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/images/proposed-investment-legend.png"
                             }
                           },
                           "pointSize": {
@@ -8873,7 +8873,7 @@
                             "colorPalette": "RdYlGn",
                             "colorColumn": "invest_year_str",
                             "legend": {
-                              "url": "http://localhost:8080/images/proposed-investment-legend.png"
+                              "url": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/images/proposed-investment-legend.png"
                             }
                           },
                           "pointSize": {
@@ -8894,7 +8894,7 @@
                             "colorPalette": "RdYlGn",
                             "colorColumn": "invest_year_str",
                             "legend": {
-                              "url": "http://localhost:8080/images/proposed-investment-legend.png"
+                              "url": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/images/proposed-investment-legend.png"
                             }
                           },
                           "pointSize": {
@@ -8907,7 +8907,7 @@
                             "colorPalette": "RdYlGn",
                             "colorColumn": "invest_year_str",
                             "legend": {
-                              "url": "http://localhost:8080/images/proposed-investment-legend.png"
+                              "url": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/images/proposed-investment-legend.png"
                             }
                           },
                           "pointSize": {
