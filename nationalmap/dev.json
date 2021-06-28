@@ -7438,6 +7438,436 @@
                   "members": [
                     {
                       "type": "csv",
+                      "name": "Available Distribution Capacity",
+                      "id": "3aa89fcb",
+                      "info": [
+                        {
+                          "name": "Description of Data",
+                          "content": "<img style='float:right; width: 40%; max-width: 407px; clear: right;' src='http://static.aremi.data61.io/datasets/dance/2017/logos/ENA.svg'/><img src='http://static.aremi.data61.io/datasets/dance/UTS_ISF_Logo_Horizontal.png' style='float: right; width: 40%; max-width: 407px; clear: right;'><p>This is a map of ‘firm substation capacity’ (determined by the local reliability criteria), minus the forecast peak demand at the Zone Substation level. Data mapped is for the relevant critical peak season (summer or winter) at each Zone Substation. Where a constraint occurs in both seasons, the season with the largest capacity shortfall over the time horizon is mapped.</p><p>This map allows the user to see the progression of load growth relative to distribution zone substation capacity over time, and understand areas of emerging capacity-related constraint. Note that capacity constraints may exist upstream or downstream of the zone substation and as such this map provides an indicative ‘slice’ of the capacity situation through one level of the network. Also note that these images show available capacity before network or non-network options are taken to alleviate constraints, and before load transfer capability between adjacent zones have been taken into account.</p><p>This map does NOT show:</p><ul><li>Areas facing power outage</li><li>The capacity of the network to accept the connection of embedded or distributed generators</li></ul><p>The green and yellow colours indicate a period when zones that have sufficient spare capacity (available capacity is around or above zero), while the orange and red colours (where available capacity is below zero) indicate periods where zones facing capacity-related constraints where investment will be needed to ensure reliability is maintained.</p><p>Polygons shown are approximate Zone Substation service regions. Clicking on a specific region will reveal the details of that location and time period, including the season of constraint and the exact available capacity value for each year.</p><p>When the user clicks on the distribution zone substation region, a range of additional information is shown in a pop up information box. An explanation of the additional information is given below:</p><ul><li><strong>Asset Type:</strong> Type of the network asset. Data presented in this layer is generally only for the Distribution Zone Substation level, although some businesses have smaller distribution feeder regions represented at times. These assets carry the following definitions:</p><ul><li><strong>Distribution Zone Substation (ZS):</strong> Transformation substation typically (but not exclusively) converting voltage to 11kV on the low voltage side, built and operated by distribution network service providers.</li><li><strong>Distribution Feeder (DF):</strong> Medium or high voltage feeder (e.g. 22 kV or 11 kV) emerging from the ZS to distribute power to downstream smaller, local distribution substations.</li></ul></li><li><strong>Network:</strong> Name of the Network Service Provider manages the asset.</li><li><strong>Notes:</strong> Additional information on the asset or investment.</li><li><strong>Constraint Season(s):</strong> Primary season of constraint driving network investment (Summer, Winter, Spring and/or Autumn).</li><li><strong>Average demand growth rate (MVA/yr):</strong> Average demand growth rate for the asset over the 10-year horizon.</li><li><strong>Data Currency:</strong> The most recent update of the shown data.</li><li><strong>Next update:</strong> The expected date and source of the next update to the data.</li></ul><p>The table and chart shows the available capacity at the selected zone over the next ten years in MVA. Where 2025 data is shown for a <em>winter critical</em> asset, this is for the winter occurring in the middle of 2025. Where 2025 data (for example) is shown for a <em>summer critical asset</em>, this is for the summer season bridging 2024/25.</p>"
+                        },
+                        {
+                          "name": "Plain English Disclaimer",
+                          "content": "<p>These maps are intended to make data on electricity network planning and investment more accessible and consistent. These maps should not be used to make investment decisions, and should only be used to assist in discussions with the local Network Service Provider. You are free to use the data but do so at your own risk. By accessing or using the data the user agrees to irrevocably release Network Service Providers and UTS from all claims, actions, damages, judgments, losses, remedies or matters whether in tort, contract or under statute or otherwise, relating to the data. By proceeding, the user agrees and accepts the terms of the Full Legal Disclaimer shown below.</p>"
+                        },
+                        {
+                          "name": "Full Legal Disclaimer",
+                          "content": "<p>UTS, the authors and the Network Service Providers do not make any representations, guarantees or warranties as to the accuracy, reliability, completeness or currency of the data and content of the maps or that reasonable care has or will be taken by UTS, the authors and the Network Service Providers in compiling preparing or updating the maps. Except to the extent not permitted by statute or any law, no liability (whether in negligence or tort, by contract or under statute or otherwise) for any error or omission is accepted by UTS, the authors and the Network Service Providers, and UTS, the authors and Network Service Providers specifically disclaim any liability for any costs, losses, claims, demands or liabilities of any kind suffered or incurred by any person by reason of or in connection with the maps or by any purported reliance on information contained in the maps.</p><p>While due care and attention has been taken in the presentation and transformation of available data and to verify the accuracy of the material published, the maps are not intended to be used as the basis for any investment decision.</p><p>Users should make their own detailed investigations as to the reliability and suitability of the content of the maps for any use to which the user intends to put it, and initiate dialogue with the relevant Network Service Provider before considering any investment relating to the subject matter of the maps.</p><p>In particular, users should note that Annual Deferral Values are indicative estimates which are subject to change as circumstances change, options are developed and more detailed investigation is done. Annual Deferral Values are not what the Network Service Provider is willing to pay for demand management support. Refer to the Network Service Provider’s Demand Side Engagement Document for details on how they assess non-network solutions and determine payment levels.</p><p>Data supplied by Network Service Providers and other parties used in the formulation of the maps has been provided, compiled and assessed in good faith, but may be incomplete and is subject to errors and to change over time as the network situation changes, load projections are amended and operational and technical matters affect network performance and investment. Such changes are likely but not guaranteed to have occurred both prior to and after publication of the maps. By accessing or using the data the user agrees to irrevocably release Network Service Providers and UTS from all claims, actions, damages, judgments, losses, remedies or matters whether in tort, contract or under statute or otherwise relating to the data. </p><p>A “Network Service Provider” referred to above is a person who engages in the activity of owning, controlling or operating a transmission or distribution system in the National Electricity Market and who is registered by AEMO as a Network Service Provider under Chapter 2 of the National Electricity Rules, and includes Electranet, SA Power Networks, TasNetworks, AEMO, United Energy Distribution, Ausnet Services, Jemena, Citipower-Powercor, Evoenergy, Transgrid, Ausgrid, Essential Energy, EndeavoLur Energy, Powerlink, Ergon Energy and Energex.</p>"
+                        },
+                        {
+                          "name": "Data Currency and Updates",
+                          "content": "This layer is updated annually. Currency and next update timing is specified when clicking on a data point in each layer."
+                        },
+                        {
+                          "name": "Data Supplier and Custodian",
+                          "content": "The data was supplied by Network Service Providers. The data is stored and processed into mapping outputs by Energy Networks Australia and the Institute of Sustainable Futures (ISF) at the University of Technology Sydney (UTS)."
+                        }
+                      ],
+                      "infoSectionOrder": [
+                        "Description of Data",
+                        "Data Currency and Updates",
+                        "Data Supplier and Custodian",
+                        "Plain English Disclaimer",
+                        "Full Legal Disclaimer"
+                      ],
+                      "initialMessage": {
+                        "key": "initialMessage.dance3",
+                        "title": "Network Opportunities Disclaimer",
+                        "content": "<strong>Plain English Disclaimer</strong><p><p>These maps are intended to make data on electricity network planning and investment more accessible and consistent. These maps should not be used to make investment decisions, and should only be used to assist in discussions with the local Network Service Provider (see list below). You are free to use the data but do so at your own risk. By accessing or using the maps and data the user agrees to irrevocably release the creators, authors, publishers and contributors to the maps, who include Network Service Providers, UTS and Energy Networks Australia (Providers), from all claims, actions, damages, judgments, losses, remedies or matters whether in tort, contract or under statute or otherwise, relating to the data. By proceeding, the user releases the Providers from all liability, and accepts the terms of this Disclaimer and the Full Legal Disclaimer shown below.</p><p><strong>Full Legal Disclaimer</strong><p><p>The Providers of these maps do not make any representations, guarantees or warranties as to the accuracy, reliability, completeness or currency of the data and content of the maps or that reasonable care has or will be taken by the Providers in compiling preparing or updating the maps.  Except to the extent not permitted by statute or any law, the Providers accept no liability (whether in negligence or tort, by contract or under statute or otherwise) for any error or omission, and specifically disclaim any liability for any costs, losses, claims, demands or liabilities of any kind suffered or incurred by any person by reason of or in connection with the maps or by any purported reliance on information contained in the maps.</p><p>While due care and attention has been taken in the presentation and transformation of available data and to verify the accuracy of the material published, the maps are not intended to be used as the basis for any investment decision.</p><p>Users should make their own detailed investigations as to the reliability and suitability of the content of the maps for any use to which the user intends to put it, and initiate dialogue with the relevant Network Service Provider before considering any investment relating to the subject matter of the maps. </p><p>In particular, users should note that Annual Deferral Values are indicative estimates which are subject to change as circumstances change, options are developed and more detailed investigation is done. Annual Deferral Values are not what the Network Service Provider is willing to pay for demand management support.  Refer to the Network Service Provider’s Demand Side Engagement Document for details on how they assess non-network solutions and determine payment levels.</p><p>Data supplied by Network Service Providers and other parties used in the formulation of the maps has been provided, compiled and assessed with due care, but may be incomplete and is subject to errors and to change over time as the network situation changes, load projections are amended and operational and technical matters affect network performance and investment. Such changes are likely but not guaranteed to have occurred both prior to and after publication of the maps. </p><p>A “Network Service Provider” referred to above is a person who engages in the activity of owning, controlling or operating a transmission or distribution system in the National Electricity Market and who is registered by AEMO as a Network Service Provider under Chapter 2 of the National Electricity Rules, and includes Electranet, SA Power Networks, TasNetworks, AEMO, United Energy Distribution, Ausnet Services, Jemena, Citipower-Powercor, Evoenergy, Transgrid, Ausgrid, Essential Energy, Endeavour Energy, Powerlink, Ergon Energy, Energex, Western Power, Horizon Power and Power and Water Corporation.</p>",
+                        "confirmation": true,
+                        "width": 600,
+                        "height": 550,
+                        "confirmText": "I Agree"
+                      },
+                      "url": "https://network-opportunity-maps.s3-ap-southeast-2.amazonaws.com/constraints/surge/available_capacity_timeseries.csv",
+                      "cacheDuration": "1h",
+                      "rectangle": {
+                        "west": 132,
+                        "south": -45,
+                        "east": 156,
+                        "north": -13
+                      },
+                      "dateFormat": "yyyy",
+                      "currentTime": "2022",
+                      "showUnmatchedRegionsWarning": false,
+                      "columns": [
+                        {
+                          "name": "asset_name",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "available_capacity",
+                          "title": "Available Capacity (MVA)"
+                        },
+                        {
+                          "name": "capacity",
+                          "title": "Capacity (MVA)"
+                        },
+                        {
+                          "name": "load",
+                          "title": "Load (MVA)"
+                        }
+                      ],
+                      "activeStyle": "available_capacity",
+                      "defaultStyle": {
+                        "color": {
+                          "numberOfBins": 9,
+                          "colorPalette": "RdYlGn"
+                        }
+                      },
+                      "featureInfoTemplate": {
+                        "name": "{{{asset_name}}}",
+                        "template": "<dl class='isf-info'>\n  <dt>Asset name</dt><dd>{{asset_name}}</dd>\n  <dt>Asset type</dt><dd>{{network_element_str}}</dd>\n  <dt>Network   </dt><dd>{{network}}</dd>\n  <dt>Notes     </dt><dd>{{investment_description}}</dd>\n\n{{#constraint_season}}\n  <dt>Constraint season(s)       </dt><dd>{{constraint_season}}</dd>\n{{/constraint_season}}\n\n  <dt>Demand growth rate (MVA/yr)</dt><dd>{{demand_growth}}</dd>\n\n{{#commitment_year}}\n  <dt>Commitment Year            </dt><dd>{{commitment_year}}</dd>\n{{/commitment_year}}\n\n{{#invest_year}}\n  <dt>Proposed investment year   </dt><dd>{{invest_year}}</dd>\n{{/invest_year}}\n\n{{#data_currency}}\n  <dt>Data Currency              </dt><dd>{{data_currency}}</dd>\n{{/data_currency}}\n\n{{#next_update}}\n  <dt>Next Update                </dt><dd>{{next_update}}</dd>\n{{/next_update}}\n\n{{#use_5yr_forecast}}\n  <dt>Years of forecast available               </dt><dd>Five</dd>\n{{/use_5yr_forecast}}\n\n{{^use_5yr_forecast}}\n  <dt>Years of forecast available               </dt><dd>Ten</dd>\n{{/use_5yr_forecast}}\n\n</dl>\n\n<br/>\n\n<table class='isf-table'>\n  <tr>\n    <th>Year</th>\n    <th>Load (MVA)</th>\n    <th>Capacity (MVA)</th>\n    <th>Available Capacity (MVA)</th>\n  </tr>\n{{#avail_cap_table}}\n  <tr>\n    <td>{{year}}</td>\n    <td>{{load}}</td>\n    <td>{{capacity}}</td>\n    <td>{{available_capacity}}</td>\n  </tr>\n{{/avail_cap_table}}\n</table>\n\n<br/>\n<br/>\n\n<center>Forecast load vs Asset Capacity (MVA)</center>\n<chart x-column='Year'\ny-columns='Load,Capacity'\ncolumn-units=',MVA,MVA'\ncolumn-names=',,'\n>Year,Load,Capacity\n\n{{#avail_cap_table}}\n{{year}},{{load}},{{capacity}}\n\n{{/avail_cap_table}}\n</chart>\n<br/>\n<br/>\n\n<dl class='isf-info'>\n  <dt>Note</dt> <dd class='isf-note'>Depending on NSP network security standards the Available Capacity and Annual Deferral Value may or may not take account of potential load transfers to delay constraints. Consult with distributors for further details</dd>\n\n{{#email}}\n  <dt>NSP Contact Email</dt><dd>{{email}}</dd>\n{{/email}}\n\n{{#phone}}\n  <dt>NSP Contact Phone</dt><dd>{{phone}}</dd>\n{{/phone}}\n</dl>\n\n<br>\n{{#apr_link}}<a target='_blank' href='{{apr_link}}'>Annual Planning Report</a><br/>{{/apr_link}}\n{{#dses_info_url}}<a target='_blank' href='{{dses_info_url}}'>DSES web link</a><br/>{{/dses_info_url}}\n{{#info_link}}<a target='_blank' href='{{info_link}}'>NSP demand management information or maps</a><br/>{{/info_link}}\n{{#file_link}}<a target='_blank' href='{{file_link}}'>Download data in spreadsheet format</a>{{/file_link}}"
+                      },
+                      "shareKeys": [
+                        "Root Group/Electricity Infrastructure/Network Opportunities/Available Distribution Capacity"
+                      ],
+                      "styles": [
+                        {
+                          "id": "available_capacity",
+                          "color": {
+                            "binMaximums": [
+                              -15,
+                              -10,
+                              -3,
+                              3,
+                              10,
+                              15
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "csv",
+                      "name": "Proposed Investment",
+                      "id": "2fb9cae8",
+                      "info": [
+                        {
+                          "name": "Description of Data",
+                          "content": "<img style='float:right; width: 40%; max-width: 407px; clear: right;' src='http://static.aremi.data61.io/datasets/dance/2017/logos/ENA.svg'/><img src='http://static.aremi.data61.io/datasets/dance/UTS_ISF_Logo_Horizontal.png' style='float: right; width: 40%; max-width: 407px; clear: right;'><p>This layer shows the location of network investment currently planned to occur over the period 2016 to 2025. Depending on the Network Service Provider, this generally includes augmentation investment, but may also include the following investment categories: replacement/refurbishment, connections, other capital investment, and major opex. Where a project investment is committed, figures shown in the table do not reflect the reduction in risk due to committed project.</p><p>The colour of the circle at a given location reflects the timing of the investment. Grey shapes indicate investments that may already be committed. Red markers are located where investment is close to being committed, while green markers represent investments planned to occur closer to the end of the time horizon.</p><p>Selecting a circle reveals information on the value and cause of the network investment, and how much of the investment is potentially deferrable. An explanation of the additional information is given below:</p><ul><li><p><strong>Asset type:</strong> Type of network asset according with the following definitions:</p><ul><li><p><strong>Transmission Line:</strong> High voltage power lines (including switching stations) built and operated by the transmission network service provider.</p></li><li><p><strong>Transmission Terminal Station:</strong> High voltage transformation substation built and operated by transmission network service provider.</p></li><li><p><strong>Sub transmission line:</strong> Sub transmission power line connecting transmission station and zone substation assets generally built and operated by distribution network service providers.</p></li><li><p><strong>Sub transmission Substation:</strong> Transformation substation at the sub transmission voltage levels built and operated by transmission network service providers.</p></li><li><p><strong>Distribution Zone Substation:</strong> Transformation substation typically (but not exclusively) converting voltage to 11kV on the low voltage side, built and operated by distribution network service providers.</p></li><li><p><strong>Distribution Feeder (DF):</strong> Medium or high voltage feeder (e.g. 22 kV or 11 kV) emerging from the ZS to distribute power to downstream smaller, local distribution substations.</p></li></ul></li><li><p><strong>Network:</strong> Name of the Network Service Provider that manages the asset.</p></li><li><p><strong>Augmentation invest ($):</strong> Value of proposed network investment for each network asset, with &quot;Augmentation&quot; as the investment driver (demand growth related).</p></li><li><p><strong>Replacement/refurbishment invest ($):</strong> Value of proposed network investment for each network asset, with &quot;Replacement/Refurbishment&quot; as the investment driver (age/condition related).</p></li><li><p><strong>Connections invest ($):</strong> Value of proposed network investment for each network asset, with &quot;Connections&quot; as the investment driver.</p></li><li><p><strong>OPEX invest ($):</strong> Value of major, potentially deferrable, proposed operating expenditure (OPEX) for network assets. The value supplied is the estimated value of the preferred OPEX solution, and is aggregated into a single value for the investment year.</p></li><li><p><strong>Other invest ($):</strong> Value of proposed network investment for each network asset, for investment that falls into any category apart from the above 4 categories.</p></li><li><p><strong>Total investment value ($):</strong> Total value of proposed network investment for the network asset.</p></li><li><p><strong>Deferrable amount ($):</strong> Amount of the total investment value that is potentially deferrable through the deployment of non-network options.</p></li><li><p><strong>Investment year:</strong> Year when the proposed network investment will take place (financial year ending). Where investment will take place over multiple years, this corresponds only to the first year in which investment will take place.</p></li><li><p><strong>Commitment Year:</strong> Year when the network business intends to commit on the investment and demand management will no longer be considered.</p></li><li><p><strong>Constraint Season(s):</strong> Primary season of constraint driving network investment (Summer, Winter, Spring and/or Autumn).</p></li><li><p><strong>Notes:</strong> Additional information on the proposed investment.</p></li><li><p><strong>Annual deferral pool ($/yr):</strong> Total annualised amount of the investment (after applying capital costs and depreciation factors) that can be potentially deferred for a year.</p></li><li><p><strong>Potential value of 10 year deferral of investment:</strong> Potential net present value (NPV) if the investment is deferred for 10 years from the year of proposed investment.</p></li><li><p><strong>Average demand growth rate (MVA/yr):</strong> Average demand growth rate for the asset over the 10-year horizon.</p></li><li><p><strong>Reactive Support Requirement:</strong> Any support required for the asset in the form of reactive power indicated by the network business.</p></li></ul><p>The table and chart show the support required in MVA that would be needed to defer the proposed investment in one year.</p>"
+                        },
+                        {
+                          "name": "Plain English Disclaimer",
+                          "content": "<p>These maps are intended to make data on electricity network planning and investment more accessible and consistent. These maps should not be used to make investment decisions, and should only be used to assist in discussions with the local Network Service Provider (see list below). You are free to use the data but do so at your own risk. By accessing or using the maps and data the user agrees to irrevocably release the creators, authors, publishers and contributors to the maps, who include Network Service Providers, UTS and Energy Networks Australia (Providers), from all claims, actions, damages, judgments, losses, remedies or matters whether in tort, contract or under statute or otherwise, relating to the data. By proceeding, the user releases the Providers from all liability, and accepts the terms of this Disclaimer and the Full Legal Disclaimer shown below.</p>"
+                        },
+                        {
+                          "name": "Full Legal Disclaimer",
+                          "content": "<p>The Providers of these maps do not make any representations, guarantees or warranties as to the accuracy, reliability, completeness or currency of the data and content of the maps or that reasonable care has or will be taken by the Providers in compiling preparing or updating the maps.  Except to the extent not permitted by statute or any law, the Providers accept no liability (whether in negligence or tort, by contract or under statute or otherwise) for any error or omission, and specifically disclaim any liability for any costs, losses, claims, demands or liabilities of any kind suffered or incurred by any person by reason of or in connection with the maps or by any purported reliance on information contained in the maps.</p><p>While due care and attention has been taken in the presentation and transformation of available data and to verify the accuracy of the material published, the maps are not intended to be used as the basis for any investment decision.</p><p>Users should make their own detailed investigations as to the reliability and suitability of the content of the maps for any use to which the user intends to put it, and initiate dialogue with the relevant Network Service Provider before considering any investment relating to the subject matter of the maps. </p><p>In particular, users should note that Annual Deferral Values are indicative estimates which are subject to change as circumstances change, options are developed and more detailed investigation is done. Annual Deferral Values are not what the Network Service Provider is willing to pay for demand management support.  Refer to the Network Service Provider’s Demand Side Engagement Document for details on how they assess non-network solutions and determine payment levels.</p><p>Data supplied by Network Service Providers and other parties used in the formulation of the maps has been provided, compiled and assessed with due care, but may be incomplete and is subject to errors and to change over time as the network situation changes, load projections are amended and operational and technical matters affect network performance and investment. Such changes are likely but not guaranteed to have occurred both prior to and after publication of the maps. </p><p>A “Network Service Provider” referred to above is a person who engages in the activity of owning, controlling or operating a transmission or distribution system in the National Electricity Market and who is registered by AEMO as a Network Service Provider under Chapter 2 of the National Electricity Rules, and includes Electranet, SA Power Networks, TasNetworks, AEMO, United Energy Distribution, Ausnet Services, Jemena, Citipower-Powercor, Evoenergy, Transgrid, Ausgrid, Essential Energy, Endeavour Energy, Powerlink, Ergon Energy, Energex, Western Power, Horizon Power and Power and Water Corporation.</p>"
+                        },
+                        {
+                          "name": "Data Currency and Updates",
+                          "content": "This layer is updated annually. Currency and next update timing is specified when clicking on a data point in each layer."
+                        },
+                        {
+                          "name": "Data Supplier and Custodian",
+                          "content": "The data was supplied by Network Service Providers. The data is stored and processed into mapping outputs by Energy Networks Australia and the Institute of Sustainable Futures (ISF) at the University of Technology Sydney (UTS)."
+                        }
+                      ],
+                      "infoSectionOrder": [
+                        "Description of Data",
+                        "Data Currency and Updates",
+                        "Data Supplier and Custodian",
+                        "Plain English Disclaimer",
+                        "Full Legal Disclaimer"
+                      ],
+                      "initialMessage": {
+                        "key": "initialMessage.dance3",
+                        "title": "Network Opportunities Disclaimer",
+                        "content": "<strong>Plain English Disclaimer</strong><p><p>These maps are intended to make data on electricity network planning and investment more accessible and consistent. These maps should not be used to make investment decisions, and should only be used to assist in discussions with the local Network Service Provider (see list below). You are free to use the data but do so at your own risk. By accessing or using the maps and data the user agrees to irrevocably release the creators, authors, publishers and contributors to the maps, who include Network Service Providers, UTS and Energy Networks Australia (Providers), from all claims, actions, damages, judgments, losses, remedies or matters whether in tort, contract or under statute or otherwise, relating to the data. By proceeding, the user releases the Providers from all liability, and accepts the terms of this Disclaimer and the Full Legal Disclaimer shown below.</p><p><strong>Full Legal Disclaimer</strong><p><p>The Providers of these maps do not make any representations, guarantees or warranties as to the accuracy, reliability, completeness or currency of the data and content of the maps or that reasonable care has or will be taken by the Providers in compiling preparing or updating the maps.  Except to the extent not permitted by statute or any law, the Providers accept no liability (whether in negligence or tort, by contract or under statute or otherwise) for any error or omission, and specifically disclaim any liability for any costs, losses, claims, demands or liabilities of any kind suffered or incurred by any person by reason of or in connection with the maps or by any purported reliance on information contained in the maps.</p><p>While due care and attention has been taken in the presentation and transformation of available data and to verify the accuracy of the material published, the maps are not intended to be used as the basis for any investment decision.</p><p>Users should make their own detailed investigations as to the reliability and suitability of the content of the maps for any use to which the user intends to put it, and initiate dialogue with the relevant Network Service Provider before considering any investment relating to the subject matter of the maps. </p><p>In particular, users should note that Annual Deferral Values are indicative estimates which are subject to change as circumstances change, options are developed and more detailed investigation is done. Annual Deferral Values are not what the Network Service Provider is willing to pay for demand management support.  Refer to the Network Service Provider’s Demand Side Engagement Document for details on how they assess non-network solutions and determine payment levels.</p><p>Data supplied by Network Service Providers and other parties used in the formulation of the maps has been provided, compiled and assessed with due care, but may be incomplete and is subject to errors and to change over time as the network situation changes, load projections are amended and operational and technical matters affect network performance and investment. Such changes are likely but not guaranteed to have occurred both prior to and after publication of the maps. </p><p>A “Network Service Provider” referred to above is a person who engages in the activity of owning, controlling or operating a transmission or distribution system in the National Electricity Market and who is registered by AEMO as a Network Service Provider under Chapter 2 of the National Electricity Rules, and includes Electranet, SA Power Networks, TasNetworks, AEMO, United Energy Distribution, Ausnet Services, Jemena, Citipower-Powercor, Evoenergy, Transgrid, Ausgrid, Essential Energy, Endeavour Energy, Powerlink, Ergon Energy, Energex, Western Power, Horizon Power and Power and Water Corporation.</p>",
+                        "confirmation": true,
+                        "width": 600,
+                        "height": 550,
+                        "confirmText": "I Agree"
+                      },
+                      "url": "https://network-opportunity-maps.s3-ap-southeast-2.amazonaws.com/constraints/surge/proposed_investment.csv",
+                      "cacheDuration": "1h",
+                      "rectangle": {
+                        "west": 132,
+                        "south": -45,
+                        "east": 156,
+                        "north": -13
+                      },
+                      "columns": [
+                        {
+                          "name": "apr_link",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "asset_code",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "asset_name",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "asset_type",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "wacc_rate",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "depr_rate",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "asset_type_str",
+                          "title": "Asset Type"
+                        },
+                        {
+                          "name": "augmentation_invest",
+                          "title": "Augmentation Investment (m$)"
+                        },
+                        {
+                          "name": "commitment_year",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "connections_invest",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "constraint_season",
+                          "title": "Constraint Season"
+                        },
+                        {
+                          "name": "data_currency",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "deferrable_invest",
+                          "title": "Deferable Investment (m$)"
+                        },
+                        {
+                          "name": "demand_growth",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "email",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "file_link",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "info_link",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "investment_description",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "invest_year",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "invest_year_str",
+                          "title": "Investment Year",
+                          "replaceWithNullValues": [
+                            "2013 (committed)",
+                            "2014 (committed)",
+                            "2015 (committed)",
+                            "2016 (committed)",
+                            "2017 (committed)",
+                            "2018 (committed)",
+                            "2019 (committed)",
+                            "2020 (committed)",
+                            "2021 (committed)",
+                            "2022 (committed)",
+                            "2023 (committed)",
+                            "2024 (committed)",
+                            "2025 (committed)",
+                            "2026 (committed)"
+                          ]
+                        },
+                        {
+                          "name": "max_DM_percent",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "max_DM_percent_str",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "network",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "network_element",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "network_element_str",
+                          "title": "Network Element"
+                        },
+                        {
+                          "name": "next_update",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "opex",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "other_invest",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "phone",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "problem_context",
+                          "type": "hidden"
+                        },
+                        {
+                          "name": "replacement_invest",
+                          "title": "Replacement Investment (m$)"
+                        },
+                        {
+                          "name": "total_invest",
+                          "title": "Total Investment (m$)"
+                        },
+                        {
+                          "name": "annual_deferral_pool",
+                          "type": "hidden"
+                        }
+                      ],
+                      "styles": [
+                        {
+                          "id": "augmentation_invest",
+                          "color": {
+                            "colorPalette": "RdYlGn",
+                            "colorColumn": "invest_year_str",
+                            "legend": {
+                              "url": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/images/proposed-investment-legend.png"
+                            }
+                          },
+                          "pointSize": {
+                            "pointSizeColumn": "augmentation_invest"
+                          }
+                        },
+                        {
+                          "id": "constraint_season",
+                          "color": {
+                            "enumColors": [
+                              {
+                                "color": "rgb(218,0,22)",
+                                "value": "Summer"
+                              },
+                              {
+                                "color": "rgb(65,163,58)",
+                                "value": "Summer, Winter"
+                              },
+                              {
+                                "color": "rgb(44,105,169)",
+                                "value": "Winter"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "id": "deferrable_invest",
+                          "color": {
+                            "colorPalette": "RdYlGn",
+                            "colorColumn": "invest_year_str",
+                            "legend": {
+                              "url": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/images/proposed-investment-legend.png"
+                            }
+                          },
+                          "pointSize": {
+                            "pointSizeColumn": "deferrable_invest"
+                          }
+                        },
+                        {
+                          "id": "invest_year_str",
+                          "color": {
+                            "nullColor": "rgba(177,178,177,1)",
+                            "nullLabel": "Committed",
+                            "colorPalette": "RdYlGn"
+                          }
+                        },
+                        {
+                          "id": "replacement_invest",
+                          "color": {
+                            "colorPalette": "RdYlGn",
+                            "colorColumn": "invest_year_str",
+                            "legend": {
+                              "url": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/images/proposed-investment-legend.png"
+                            }
+                          },
+                          "pointSize": {
+                            "pointSizeColumn": "replacement_invest"
+                          }
+                        },
+                        {
+                          "id": "total_invest",
+                          "color": {
+                            "colorPalette": "RdYlGn",
+                            "colorColumn": "invest_year_str",
+                            "legend": {
+                              "url": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/images/proposed-investment-legend.png"
+                            }
+                          },
+                          "pointSize": {
+                            "pointSizeColumn": "total_invest"
+                          }
+                        },
+                        {
+                          "id": "network_element_str",
+                          "color": {
+                            "enumColors": [
+                              {
+                                "value": "Distribution Feeder",
+                                "color": "#e41a1c"
+                              },
+                              {
+                                "value": "Zone Substation",
+                                "color": "#377eb8"
+                              },
+                              {
+                                "value": "Zone Substation (Proposed)",
+                                "color": "#4daf4a"
+                              },
+                              {
+                                "value": "Subtransmission Line",
+                                "color": "#984ea3"
+                              },
+                              {
+                                "value": "Subtransmission Station",
+                                "color": "#ff7f00"
+                              },
+                              {
+                                "value": "Transmission Connection Point",
+                                "color": "#ffff33"
+                              },
+                              {
+                                "value": "Transmission Line",
+                                "color": "#a65628"
+                              },
+                              {
+                                "value": "Transmission Station",
+                                "color": "#f781bf"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "activeStyle": "invest_year_str",
+                      "featureInfoTemplate": {
+                        "name": "{{{asset_name}}}",
+                        "template": "<dl class='isf-info'>\n  <dt>Asset name</dt><dd>{{asset_name}}</dd>\n  <dt>Asset type</dt><dd>{{network_element_str}}</dd>\n  <dt>Network   </dt><dd>{{network}}</dd>\n  <dt>Notes     </dt><dd>{{investment_description}}</dd>\n\n{{#augmentation_invest}}\n  <dt>Augmentation investment (m$)</dt><dd>{{augmentation_invest}}</dd>\n{{/augmentation_invest}}\n\n{{#replacement_invest}}\n  <dt>Replacement investment (m$) </dt><dd>{{replacement_invest}}</dd>\n{{/replacement_invest}}\n\n{{#connections_invest}}\n  <dt>Connections investment (m$) </dt><dd>{{connections_invest}}</dd>\n{{/connections_invest}}\n\n{{#other_invest}}\n  <dt>Other investment (m$)       </dt><dd>{{other_invest}}</dd>\n{{/other_invest}}\n\n  <dt>Total investment value (m$) </dt><dd>{{total_invest}}</dd>\n  <dt>Deferrable investment (m$)  </dt><dd>{{deferrable_invest}}{{^deferrable_invest}} 0 {{/deferrable_invest}}</dd>\n  <dt>Investment year             </dt><dd>{{invest_year_str}}</dd>\n  <dt>Commitment year             </dt><dd>{{commitment_year}} {{^commitment_year}} Not specified {{/commitment_year}}</dd>\n\n{{#data_currency}}\n  <dt>Data Currency               </dt><dd>{{data_currency}}</dd>\n{{/data_currency}}\n\n{{#next_update}}\n  <dt>Next Update                 </dt><dd>{{next_update}}</dd>\n{{/next_update}}\n</dl>\n\n<br>\n\n<div class='isf-note'>\n  Depending on NSP network security standards the information shown may or may not take\n  account of potential load transfers to delay constraints. Consult with distributors for\n  further details\n</div>\n<dl class='isf-info'>\n{{#email}}\n    <dt>NSP Contact Email</dt><dd>{{email}}</dd>\n{{/email}}\n\n{{#phone}}\n    <dt>NSP Contact Phone</dt><dd>{{phone}}</dd>\n{{/phone}}\n</dl>\n\n{{#apr_link}}    <a target='_blank' href='{{apr_link}}'>Annual Planning Report</a><br>{{/apr_link}}\n{{#info_link}} <a target='_blank' href='{{info_link}}'>NSP demand management information or maps</a><br> {{/info_link}}"
+                      },
+                      "shareKeys": [
+                        "Root Group/Electricity Infrastructure/Network Opportunities/Proposed Investment"
+                      ]
+                    },
+                    {
+                      "type": "csv",
                       "name": "Annual Deferral Value",
                       "id": "9fe2927c",
                       "info": [
@@ -7545,20 +7975,20 @@
                     },
                     {
                       "type": "csv",
-                      "name": "Available Distribution Capacity",
-                      "id": "3aa89fcb",
+                      "name": "Peak Day Available Capacity",
+                      "id": "e16f1613",
                       "info": [
                         {
                           "name": "Description of Data",
-                          "content": "<img style='float:right; width: 40%; max-width: 407px; clear: right;' src='http://static.aremi.data61.io/datasets/dance/2017/logos/ENA.svg'/><img src='http://static.aremi.data61.io/datasets/dance/UTS_ISF_Logo_Horizontal.png' style='float: right; width: 40%; max-width: 407px; clear: right;'><p>This is a map of ‘firm substation capacity’ (determined by the local reliability criteria), minus the forecast peak demand at the Zone Substation level. Data mapped is for the relevant critical peak season (summer or winter) at each Zone Substation. Where a constraint occurs in both seasons, the season with the largest capacity shortfall over the time horizon is mapped.</p><p>This map allows the user to see the progression of load growth relative to distribution zone substation capacity over time, and understand areas of emerging capacity-related constraint. Note that capacity constraints may exist upstream or downstream of the zone substation and as such this map provides an indicative ‘slice’ of the capacity situation through one level of the network. Also note that these images show available capacity before network or non-network options are taken to alleviate constraints, and before load transfer capability between adjacent zones have been taken into account.</p><p>This map does NOT show:</p><ul><li>Areas facing power outage</li><li>The capacity of the network to accept the connection of embedded or distributed generators</li></ul><p>The green and yellow colours indicate a period when zones that have sufficient spare capacity (available capacity is around or above zero), while the orange and red colours (where available capacity is below zero) indicate periods where zones facing capacity-related constraints where investment will be needed to ensure reliability is maintained.</p><p>Polygons shown are approximate Zone Substation service regions. Clicking on a specific region will reveal the details of that location and time period, including the season of constraint and the exact available capacity value for each year.</p><p>When the user clicks on the distribution zone substation region, a range of additional information is shown in a pop up information box. An explanation of the additional information is given below:</p><ul><li><strong>Asset Type:</strong> Type of the network asset. Data presented in this layer is generally only for the Distribution Zone Substation level, although some businesses have smaller distribution feeder regions represented at times. These assets carry the following definitions:</p><ul><li><strong>Distribution Zone Substation (ZS):</strong> Transformation substation typically (but not exclusively) converting voltage to 11kV on the low voltage side, built and operated by distribution network service providers.</li><li><strong>Distribution Feeder (DF):</strong> Medium or high voltage feeder (e.g. 22 kV or 11 kV) emerging from the ZS to distribute power to downstream smaller, local distribution substations.</li></ul></li><li><strong>Network:</strong> Name of the Network Service Provider manages the asset.</li><li><strong>Notes:</strong> Additional information on the asset or investment.</li><li><strong>Constraint Season(s):</strong> Primary season of constraint driving network investment (Summer, Winter, Spring and/or Autumn).</li><li><strong>Average demand growth rate (MVA/yr):</strong> Average demand growth rate for the asset over the 10-year horizon.</li><li><strong>Data Currency:</strong> The most recent update of the shown data.</li><li><strong>Next update:</strong> The expected date and source of the next update to the data.</li></ul><p>The table and chart shows the available capacity at the selected zone over the next ten years in MVA. Where 2025 data is shown for a <em>winter critical</em> asset, this is for the winter occurring in the middle of 2025. Where 2025 data (for example) is shown for a <em>summer critical asset</em>, this is for the summer season bridging 2024/25.</p>"
+                          "content": "<img style='float:right; width: 40%; max-width: 407px; clear: right;' src='http://static.aremi.data61.io/datasets/dance/2017/logos/ENA.svg'/><img style='float:right; width: 40%; max-width: 407px; clear: right;' src='http://static.aremi.data61.io/datasets/dance/UTS_ISF_Logo_Horizontal.png'/><p>Augmentation investments in the network are undertaken to avoid peak demand reaching the capacity of network infrastructure. However, the peak demand of a network asset generally occurs only a few hours a year and hence it is useful to show the timing and magnitude of the constrained hours on a representative the peak day.</p><p>This map layer shows the load as percentage of asset capacity for each hour of a representative peak day in the lowest level of the network each area with potentially deferrable investment. For example, if the zone substation has deferrable value then the zone exceedance situation is mapped, while if the only deferrable value is at the transmission level, the transmission exceedance situation is mapped.</p><p>A value &lt; 100% represents spare capacity, while a value &gt; 100% represents an exceedance.</p><p>Note that the critical season (summer or winter) and year of investment is different for each constraint area. As such, the peak day data mapped for each area is for the planned investment year* and the relevant peak season. This means that winter peaking zones may be more likely to show exceedance early and late in the day, and summer peaking zones to show value during the middle of the day and afternoon.</p><p>In the additional information (when a polygon is clicked), the values are graphed to show the peak day load trace.</p><p>* If the first year that support is required is after the investment year, then the exceedance for this year is mapped.</p><p>When the user clicks on the distribution feeder region, a range of additional information is shown in a pop up information box. An explanation of the additional information is given below:</p><ul><li><p><strong>Asset type:</strong> Type of network asset according with the following definitions:</p><ul><li><p><strong>Transmission Line:</strong> High voltage power lines (including switching stations) built and operated by the transmission network service provider.</p></li><li><p><strong>Transmission Terminal Station:</strong> High voltage transformation substation built and operated by transmission network service provider.</p></li><li><p><strong>Sub transmission line:</strong> Sub transmission power line connecting transmission station and zone substation assets generally built and operated by distribution network service providers.</p></li><li><p><strong>Sub transmission Substation:</strong> Transformation substation at the sub transmission voltage levels built and operated by transmission network service providers.</p></li><li><p><strong>Distribution Zone Substation:</strong> Transformation substation typically (but not exclusively) converting voltage to 11kV on the low voltage side, built and operated by distribution network service providers.</p></li></ul></li><li><p><strong>Distribution Feeder (DF):</strong> Medium or high voltage feeder (e.g. 22 kV or 11 kV) emerging from the ZS to distribute power to downstream smaller, local distributions substations.</p></li><li><p><strong>Network:</strong> Name of the Network Service Provider that manages the asset.</p></li><li><p><strong>Notes:</strong> Additional information on the proposed investment.</p></li><li><p><strong>Constraint Season(s):</strong> Primary season of constraint driving network investment (Summer, Winter, Spring and/or Autumn).</p></li><li><p><strong>Average demand growth rate (MVA/yr):</strong> Average demand growth rate for the asset over the 10-year horizon.</p></li><li><p><strong>Proposed investment year:</strong> Financial year when the investment takes place. Where investment takes place over multiple years, this field shows the first year in which the investment takes place.</p></li><li><p><strong>Asset capacity (MVA):</strong> Maximum capacity at which the NSP is comfortable operating the network asset over the coming 10-year period. This may be the secure capacity, the nameplate capacity, or some other customisable level that could change year on year.</p></li><li><p><strong>Mapped year:</strong> Year shown in the map which coincides with the planned year of investment.</p></li><li><p><strong>Maximum capacity exceedance in mapped year (MVA):</strong> Maximum capacity exceedance in the constrained asset expected for the mapped year.</p></li><li><p><strong>MWh exceedance in</strong> <strong>shown year (MWh):</strong> Total forecast energy exceedance in MWh for the mapped year.</p></li></ul><p>NOTE:</p><ul><li><p>The above data is repeated for other constrained assets at higher levels of the network (where data is available)</p></li><li><p>Peak day hourly data supplied is generally raw, unchecked and uncorrected for load transfers that occurred during the period. Anomalies may exist.</p></li><li><p>The peak day date in the graphs for all polygons is shown as “1/1/1900” to ensure it is not confused for data from a specific actual date.</p></li></ul>"
                         },
                         {
                           "name": "Plain English Disclaimer",
-                          "content": "<p>These maps are intended to make data on electricity network planning and investment more accessible and consistent. These maps should not be used to make investment decisions, and should only be used to assist in discussions with the local Network Service Provider. You are free to use the data but do so at your own risk. By accessing or using the data the user agrees to irrevocably release Network Service Providers and UTS from all claims, actions, damages, judgments, losses, remedies or matters whether in tort, contract or under statute or otherwise, relating to the data. By proceeding, the user agrees and accepts the terms of the Full Legal Disclaimer shown below.</p>"
+                          "content": "<p>These maps are intended to make data on electricity network planning and investment more accessible and consistent. These maps should not be used to make investment decisions, and should only be used to assist in discussions with the local Network Service Provider (see list below). You are free to use the data but do so at your own risk. By accessing or using the maps and data the user agrees to irrevocably release the creators, authors, publishers and contributors to the maps, who include Network Service Providers, UTS and Energy Networks Australia (Providers), from all claims, actions, damages, judgments, losses, remedies or matters whether in tort, contract or under statute or otherwise, relating to the data. By proceeding, the user releases the Providers from all liability, and accepts the terms of this Disclaimer and the Full Legal Disclaimer shown below.</p>"
                         },
                         {
                           "name": "Full Legal Disclaimer",
-                          "content": "<p>UTS, the authors and the Network Service Providers do not make any representations, guarantees or warranties as to the accuracy, reliability, completeness or currency of the data and content of the maps or that reasonable care has or will be taken by UTS, the authors and the Network Service Providers in compiling preparing or updating the maps. Except to the extent not permitted by statute or any law, no liability (whether in negligence or tort, by contract or under statute or otherwise) for any error or omission is accepted by UTS, the authors and the Network Service Providers, and UTS, the authors and Network Service Providers specifically disclaim any liability for any costs, losses, claims, demands or liabilities of any kind suffered or incurred by any person by reason of or in connection with the maps or by any purported reliance on information contained in the maps.</p><p>While due care and attention has been taken in the presentation and transformation of available data and to verify the accuracy of the material published, the maps are not intended to be used as the basis for any investment decision.</p><p>Users should make their own detailed investigations as to the reliability and suitability of the content of the maps for any use to which the user intends to put it, and initiate dialogue with the relevant Network Service Provider before considering any investment relating to the subject matter of the maps.</p><p>In particular, users should note that Annual Deferral Values are indicative estimates which are subject to change as circumstances change, options are developed and more detailed investigation is done. Annual Deferral Values are not what the Network Service Provider is willing to pay for demand management support. Refer to the Network Service Provider’s Demand Side Engagement Document for details on how they assess non-network solutions and determine payment levels.</p><p>Data supplied by Network Service Providers and other parties used in the formulation of the maps has been provided, compiled and assessed in good faith, but may be incomplete and is subject to errors and to change over time as the network situation changes, load projections are amended and operational and technical matters affect network performance and investment. Such changes are likely but not guaranteed to have occurred both prior to and after publication of the maps. By accessing or using the data the user agrees to irrevocably release Network Service Providers and UTS from all claims, actions, damages, judgments, losses, remedies or matters whether in tort, contract or under statute or otherwise relating to the data. </p><p>A “Network Service Provider” referred to above is a person who engages in the activity of owning, controlling or operating a transmission or distribution system in the National Electricity Market and who is registered by AEMO as a Network Service Provider under Chapter 2 of the National Electricity Rules, and includes Electranet, SA Power Networks, TasNetworks, AEMO, United Energy Distribution, Ausnet Services, Jemena, Citipower-Powercor, Evoenergy, Transgrid, Ausgrid, Essential Energy, EndeavoLur Energy, Powerlink, Ergon Energy and Energex.</p>"
+                          "content": "<p>The Providers of these maps do not make any representations, guarantees or warranties as to the accuracy, reliability, completeness or currency of the data and content of the maps or that reasonable care has or will be taken by the Providers in compiling preparing or updating the maps.  Except to the extent not permitted by statute or any law, the Providers accept no liability (whether in negligence or tort, by contract or under statute or otherwise) for any error or omission, and specifically disclaim any liability for any costs, losses, claims, demands or liabilities of any kind suffered or incurred by any person by reason of or in connection with the maps or by any purported reliance on information contained in the maps.</p><p>While due care and attention has been taken in the presentation and transformation of available data and to verify the accuracy of the material published, the maps are not intended to be used as the basis for any investment decision.</p><p>Users should make their own detailed investigations as to the reliability and suitability of the content of the maps for any use to which the user intends to put it, and initiate dialogue with the relevant Network Service Provider before considering any investment relating to the subject matter of the maps. </p><p>In particular, users should note that Annual Deferral Values are indicative estimates which are subject to change as circumstances change, options are developed and more detailed investigation is done. Annual Deferral Values are not what the Network Service Provider is willing to pay for demand management support.  Refer to the Network Service Provider’s Demand Side Engagement Document for details on how they assess non-network solutions and determine payment levels.</p><p>Data supplied by Network Service Providers and other parties used in the formulation of the maps has been provided, compiled and assessed with due care, but may be incomplete and is subject to errors and to change over time as the network situation changes, load projections are amended and operational and technical matters affect network performance and investment. Such changes are likely but not guaranteed to have occurred both prior to and after publication of the maps. </p><p>A “Network Service Provider” referred to above is a person who engages in the activity of owning, controlling or operating a transmission or distribution system in the National Electricity Market and who is registered by AEMO as a Network Service Provider under Chapter 2 of the National Electricity Rules, and includes Electranet, SA Power Networks, TasNetworks, AEMO, United Energy Distribution, Ausnet Services, Jemena, Citipower-Powercor, Evoenergy, Transgrid, Ausgrid, Essential Energy, Endeavour Energy, Powerlink, Ergon Energy, Energex, Western Power, Horizon Power and Power and Water Corporation.</p>"
                         },
                         {
                           "name": "Data Currency and Updates",
@@ -7585,7 +8015,7 @@
                         "height": 550,
                         "confirmText": "I Agree"
                       },
-                      "url": "https://network-opportunity-maps.s3-ap-southeast-2.amazonaws.com/constraints/surge/available_capacity_timeseries.csv",
+                      "url": "https://network-opportunity-maps.s3-ap-southeast-2.amazonaws.com/constraints/surge/peak_day.csv",
                       "cacheDuration": "1h",
                       "rectangle": {
                         "west": 132,
@@ -7593,18 +8023,10 @@
                         "east": 156,
                         "north": -13
                       },
-                      "dateFormat": "yyyy",
-                      "currentTime": "2022",
+                      "dateFormat": "hh tt",
+                      "currentTime": "1900-01-01T18:00:00",
                       "showUnmatchedRegionsWarning": false,
                       "columns": [
-                        {
-                          "name": "asset_name",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "available_capacity",
-                          "title": "Available Capacity (MVA)"
-                        },
                         {
                           "name": "capacity",
                           "title": "Capacity (MVA)"
@@ -7612,33 +8034,46 @@
                         {
                           "name": "load",
                           "title": "Load (MVA)"
+                        },
+                        {
+                          "name": "percent_available",
+                          "title": "Percent of capacity (%)"
                         }
                       ],
-                      "activeStyle": "available_capacity",
+                      "activeStyle": "percent_available",
                       "defaultStyle": {
                         "color": {
-                          "numberOfBins": 9,
-                          "colorPalette": "RdYlGn"
+                          "binColors": [
+                            "rgba(26,152,80,1.0)",
+                            "rgba(102,189,99,1.0)",
+                            "rgba(166,217,106,1.0)",
+                            "rgba(217,239,139,1.0)",
+                            "rgba(255,255,191,1.0)",
+                            "rgba(254,224,139,1.0)",
+                            "rgba(253,174,97,1.0)",
+                            "rgba(244,109,67,1.0)",
+                            "rgba(215,48,39,1.0)"
+                          ],
+                          "numberOfBins": 9
                         }
                       },
                       "featureInfoTemplate": {
                         "name": "{{{asset_name}}}",
-                        "template": "<dl class='isf-info'>\n  <dt>Asset name</dt><dd>{{asset_name}}</dd>\n  <dt>Asset type</dt><dd>{{network_element_str}}</dd>\n  <dt>Network   </dt><dd>{{network}}</dd>\n  <dt>Notes     </dt><dd>{{investment_description}}</dd>\n\n{{#constraint_season}}\n  <dt>Constraint season(s)       </dt><dd>{{constraint_season}}</dd>\n{{/constraint_season}}\n\n  <dt>Demand growth rate (MVA/yr)</dt><dd>{{demand_growth}}</dd>\n\n{{#commitment_year}}\n  <dt>Commitment Year            </dt><dd>{{commitment_year}}</dd>\n{{/commitment_year}}\n\n{{#invest_year}}\n  <dt>Proposed investment year   </dt><dd>{{invest_year}}</dd>\n{{/invest_year}}\n\n{{#data_currency}}\n  <dt>Data Currency              </dt><dd>{{data_currency}}</dd>\n{{/data_currency}}\n\n{{#next_update}}\n  <dt>Next Update                </dt><dd>{{next_update}}</dd>\n{{/next_update}}\n\n{{#use_5yr_forecast}}\n  <dt>Years of forecast available               </dt><dd>Five</dd>\n{{/use_5yr_forecast}}\n\n{{^use_5yr_forecast}}\n  <dt>Years of forecast available               </dt><dd>Ten</dd>\n{{/use_5yr_forecast}}\n\n</dl>\n\n<br/>\n\n<table class='isf-table'>\n  <tr>\n    <th>Year</th>\n    <th>Load (MVA)</th>\n    <th>Capacity (MVA)</th>\n    <th>Available Capacity (MVA)</th>\n  </tr>\n{{#avail_cap_table}}\n  <tr>\n    <td>{{year}}</td>\n    <td>{{load}}</td>\n    <td>{{capacity}}</td>\n    <td>{{available_capacity}}</td>\n  </tr>\n{{/avail_cap_table}}\n</table>\n\n<br/>\n<br/>\n\n<center>Forecast load vs Asset Capacity (MVA)</center>\n<chart x-column='Year'\ny-columns='Load,Capacity'\ncolumn-units=',MVA,MVA'\ncolumn-names=',,'\n>Year,Load,Capacity\n\n{{#avail_cap_table}}\n{{year}},{{load}},{{capacity}}\n\n{{/avail_cap_table}}\n</chart>\n<br/>\n<br/>\n\n<dl class='isf-info'>\n  <dt>Note</dt> <dd class='isf-note'>Depending on NSP network security standards the Available Capacity and Annual Deferral Value may or may not take account of potential load transfers to delay constraints. Consult with distributors for further details</dd>\n\n{{#email}}\n  <dt>NSP Contact Email</dt><dd>{{email}}</dd>\n{{/email}}\n\n{{#phone}}\n  <dt>NSP Contact Phone</dt><dd>{{phone}}</dd>\n{{/phone}}\n</dl>\n\n<br>\n{{#apr_link}}<a target='_blank' href='{{apr_link}}'>Annual Planning Report</a><br/>{{/apr_link}}\n{{#dses_info_url}}<a target='_blank' href='{{dses_info_url}}'>DSES web link</a><br/>{{/dses_info_url}}\n{{#info_link}}<a target='_blank' href='{{info_link}}'>NSP demand management information or maps</a><br/>{{/info_link}}\n{{#file_link}}<a target='_blank' href='{{file_link}}'>Download data in spreadsheet format</a>{{/file_link}}"
+                        "template": "<dl class='isf-info'>\n  <dt>Asset name</dt><dd>{{asset_name}}</dd>\n  <dt>Asset type</dt><dd>{{network_element_str}}</dd>\n  <dt>Network   </dt><dd>{{network}}</dd>\n  <dt>Notes     </dt><dd>{{investment_description}}</dd>\n\n{{#constraint_season}}\n  <dt>Constraint season(s)       </dt><dd>{{constraint_season}}</dd>\n{{/constraint_season}}\n  <dt>Peak day load shape used</dt><dd>{{peak_day_date}}</dd>\n <dt>Capacity ({{avail_cap_table.0.year}})</dt><dd>{{avail_cap_table.0.capacity}} MVA</dd>\n\n  <dt>Demand growth rate (MVA/yr)</dt><dd>{{demand_growth}}</dd>\n\n{{#commitment_year}}\n  <dt>Commitment Year            </dt><dd>{{commitment_year}}</dd>\n{{/commitment_year}}\n\n{{#invest_year}}\n  <dt>Proposed investment year   </dt><dd>{{invest_year}}</dd>\n{{/invest_year}}\n\n{{#data_currency}}\n  <dt>Data Currency              </dt><dd>{{data_currency}}</dd>\n{{/data_currency}}\n\n{{#next_update}}\n  <dt>Next Update                </dt><dd>{{next_update}}</dd>\n{{/next_update}}\n</dl>\n\n<div class='isf-note'>\n  Depending on NSP network security standards the information shown may or may not take\n  account of potential load transfers to delay constraints. Consult with distributors for\n  further details\n</div>\n\n<dl>\n{{#email}}\n  <dt>NSP Contact Email</dt><dd>{{email}}</dd>\n{{/email}}\n{{#phone}}\n  <dt>NSP Contact Phone</dt><dd>{{phone}}</dd>\n{{/phone}}\n</dl>\n\n{{#apr_link}}<a target='_blank' href='{{apr_link}}'>Annual Planning Report</a><br>{{/apr_link}}\n{{#info_link}}<a target='_blank' href='{{info_link}}'>NSP demand management information or maps</a><br>{{/info_link}}"
                       },
                       "shareKeys": [
-                        "Root Group/Electricity Infrastructure/Network Opportunities/Available Distribution Capacity"
+                        "Root Group/Electricity Infrastructure/Network Opportunities/Peak Day Available Capacity"
                       ],
                       "styles": [
                         {
-                          "id": "available_capacity",
+                          "id": "percent_available",
                           "color": {
                             "binMaximums": [
-                              -15,
-                              -10,
-                              -3,
-                              3,
-                              10,
-                              15
+                              25,
+                              50,
+                              75,
+                              90,
+                              100
                             ]
                           }
                         }
@@ -8526,441 +8961,6 @@
                       ],
                       "shareKeys": [
                         "Root Group/Electricity Infrastructure/Network Opportunities/New Generator Connection Capacity"
-                      ]
-                    },
-                    {
-                      "type": "csv",
-                      "name": "Peak Day Available Capacity",
-                      "id": "e16f1613",
-                      "info": [
-                        {
-                          "name": "Description of Data",
-                          "content": "<img style='float:right; width: 40%; max-width: 407px; clear: right;' src='http://static.aremi.data61.io/datasets/dance/2017/logos/ENA.svg'/><img style='float:right; width: 40%; max-width: 407px; clear: right;' src='http://static.aremi.data61.io/datasets/dance/UTS_ISF_Logo_Horizontal.png'/><p>Augmentation investments in the network are undertaken to avoid peak demand reaching the capacity of network infrastructure. However, the peak demand of a network asset generally occurs only a few hours a year and hence it is useful to show the timing and magnitude of the constrained hours on a representative the peak day.</p><p>This map layer shows the load as percentage of asset capacity for each hour of a representative peak day in the lowest level of the network each area with potentially deferrable investment. For example, if the zone substation has deferrable value then the zone exceedance situation is mapped, while if the only deferrable value is at the transmission level, the transmission exceedance situation is mapped.</p><p>A value &lt; 100% represents spare capacity, while a value &gt; 100% represents an exceedance.</p><p>Note that the critical season (summer or winter) and year of investment is different for each constraint area. As such, the peak day data mapped for each area is for the planned investment year* and the relevant peak season. This means that winter peaking zones may be more likely to show exceedance early and late in the day, and summer peaking zones to show value during the middle of the day and afternoon.</p><p>In the additional information (when a polygon is clicked), the values are graphed to show the peak day load trace.</p><p>* If the first year that support is required is after the investment year, then the exceedance for this year is mapped.</p><p>When the user clicks on the distribution feeder region, a range of additional information is shown in a pop up information box. An explanation of the additional information is given below:</p><ul><li><p><strong>Asset type:</strong> Type of network asset according with the following definitions:</p><ul><li><p><strong>Transmission Line:</strong> High voltage power lines (including switching stations) built and operated by the transmission network service provider.</p></li><li><p><strong>Transmission Terminal Station:</strong> High voltage transformation substation built and operated by transmission network service provider.</p></li><li><p><strong>Sub transmission line:</strong> Sub transmission power line connecting transmission station and zone substation assets generally built and operated by distribution network service providers.</p></li><li><p><strong>Sub transmission Substation:</strong> Transformation substation at the sub transmission voltage levels built and operated by transmission network service providers.</p></li><li><p><strong>Distribution Zone Substation:</strong> Transformation substation typically (but not exclusively) converting voltage to 11kV on the low voltage side, built and operated by distribution network service providers.</p></li></ul></li><li><p><strong>Distribution Feeder (DF):</strong> Medium or high voltage feeder (e.g. 22 kV or 11 kV) emerging from the ZS to distribute power to downstream smaller, local distributions substations.</p></li><li><p><strong>Network:</strong> Name of the Network Service Provider that manages the asset.</p></li><li><p><strong>Notes:</strong> Additional information on the proposed investment.</p></li><li><p><strong>Constraint Season(s):</strong> Primary season of constraint driving network investment (Summer, Winter, Spring and/or Autumn).</p></li><li><p><strong>Average demand growth rate (MVA/yr):</strong> Average demand growth rate for the asset over the 10-year horizon.</p></li><li><p><strong>Proposed investment year:</strong> Financial year when the investment takes place. Where investment takes place over multiple years, this field shows the first year in which the investment takes place.</p></li><li><p><strong>Asset capacity (MVA):</strong> Maximum capacity at which the NSP is comfortable operating the network asset over the coming 10-year period. This may be the secure capacity, the nameplate capacity, or some other customisable level that could change year on year.</p></li><li><p><strong>Mapped year:</strong> Year shown in the map which coincides with the planned year of investment.</p></li><li><p><strong>Maximum capacity exceedance in mapped year (MVA):</strong> Maximum capacity exceedance in the constrained asset expected for the mapped year.</p></li><li><p><strong>MWh exceedance in</strong> <strong>shown year (MWh):</strong> Total forecast energy exceedance in MWh for the mapped year.</p></li></ul><p>NOTE:</p><ul><li><p>The above data is repeated for other constrained assets at higher levels of the network (where data is available)</p></li><li><p>Peak day hourly data supplied is generally raw, unchecked and uncorrected for load transfers that occurred during the period. Anomalies may exist.</p></li><li><p>The peak day date in the graphs for all polygons is shown as “1/1/1900” to ensure it is not confused for data from a specific actual date.</p></li></ul>"
-                        },
-                        {
-                          "name": "Plain English Disclaimer",
-                          "content": "<p>These maps are intended to make data on electricity network planning and investment more accessible and consistent. These maps should not be used to make investment decisions, and should only be used to assist in discussions with the local Network Service Provider (see list below). You are free to use the data but do so at your own risk. By accessing or using the maps and data the user agrees to irrevocably release the creators, authors, publishers and contributors to the maps, who include Network Service Providers, UTS and Energy Networks Australia (Providers), from all claims, actions, damages, judgments, losses, remedies or matters whether in tort, contract or under statute or otherwise, relating to the data. By proceeding, the user releases the Providers from all liability, and accepts the terms of this Disclaimer and the Full Legal Disclaimer shown below.</p>"
-                        },
-                        {
-                          "name": "Full Legal Disclaimer",
-                          "content": "<p>The Providers of these maps do not make any representations, guarantees or warranties as to the accuracy, reliability, completeness or currency of the data and content of the maps or that reasonable care has or will be taken by the Providers in compiling preparing or updating the maps.  Except to the extent not permitted by statute or any law, the Providers accept no liability (whether in negligence or tort, by contract or under statute or otherwise) for any error or omission, and specifically disclaim any liability for any costs, losses, claims, demands or liabilities of any kind suffered or incurred by any person by reason of or in connection with the maps or by any purported reliance on information contained in the maps.</p><p>While due care and attention has been taken in the presentation and transformation of available data and to verify the accuracy of the material published, the maps are not intended to be used as the basis for any investment decision.</p><p>Users should make their own detailed investigations as to the reliability and suitability of the content of the maps for any use to which the user intends to put it, and initiate dialogue with the relevant Network Service Provider before considering any investment relating to the subject matter of the maps. </p><p>In particular, users should note that Annual Deferral Values are indicative estimates which are subject to change as circumstances change, options are developed and more detailed investigation is done. Annual Deferral Values are not what the Network Service Provider is willing to pay for demand management support.  Refer to the Network Service Provider’s Demand Side Engagement Document for details on how they assess non-network solutions and determine payment levels.</p><p>Data supplied by Network Service Providers and other parties used in the formulation of the maps has been provided, compiled and assessed with due care, but may be incomplete and is subject to errors and to change over time as the network situation changes, load projections are amended and operational and technical matters affect network performance and investment. Such changes are likely but not guaranteed to have occurred both prior to and after publication of the maps. </p><p>A “Network Service Provider” referred to above is a person who engages in the activity of owning, controlling or operating a transmission or distribution system in the National Electricity Market and who is registered by AEMO as a Network Service Provider under Chapter 2 of the National Electricity Rules, and includes Electranet, SA Power Networks, TasNetworks, AEMO, United Energy Distribution, Ausnet Services, Jemena, Citipower-Powercor, Evoenergy, Transgrid, Ausgrid, Essential Energy, Endeavour Energy, Powerlink, Ergon Energy, Energex, Western Power, Horizon Power and Power and Water Corporation.</p>"
-                        },
-                        {
-                          "name": "Data Currency and Updates",
-                          "content": "This layer is updated annually. Currency and next update timing is specified when clicking on a data point in each layer."
-                        },
-                        {
-                          "name": "Data Supplier and Custodian",
-                          "content": "The data was supplied by Network Service Providers. The data is stored and processed into mapping outputs by Energy Networks Australia and the Institute of Sustainable Futures (ISF) at the University of Technology Sydney (UTS)."
-                        }
-                      ],
-                      "infoSectionOrder": [
-                        "Description of Data",
-                        "Data Currency and Updates",
-                        "Data Supplier and Custodian",
-                        "Plain English Disclaimer",
-                        "Full Legal Disclaimer"
-                      ],
-                      "initialMessage": {
-                        "key": "initialMessage.dance3",
-                        "title": "Network Opportunities Disclaimer",
-                        "content": "<strong>Plain English Disclaimer</strong><p><p>These maps are intended to make data on electricity network planning and investment more accessible and consistent. These maps should not be used to make investment decisions, and should only be used to assist in discussions with the local Network Service Provider (see list below). You are free to use the data but do so at your own risk. By accessing or using the maps and data the user agrees to irrevocably release the creators, authors, publishers and contributors to the maps, who include Network Service Providers, UTS and Energy Networks Australia (Providers), from all claims, actions, damages, judgments, losses, remedies or matters whether in tort, contract or under statute or otherwise, relating to the data. By proceeding, the user releases the Providers from all liability, and accepts the terms of this Disclaimer and the Full Legal Disclaimer shown below.</p><p><strong>Full Legal Disclaimer</strong><p><p>The Providers of these maps do not make any representations, guarantees or warranties as to the accuracy, reliability, completeness or currency of the data and content of the maps or that reasonable care has or will be taken by the Providers in compiling preparing or updating the maps.  Except to the extent not permitted by statute or any law, the Providers accept no liability (whether in negligence or tort, by contract or under statute or otherwise) for any error or omission, and specifically disclaim any liability for any costs, losses, claims, demands or liabilities of any kind suffered or incurred by any person by reason of or in connection with the maps or by any purported reliance on information contained in the maps.</p><p>While due care and attention has been taken in the presentation and transformation of available data and to verify the accuracy of the material published, the maps are not intended to be used as the basis for any investment decision.</p><p>Users should make their own detailed investigations as to the reliability and suitability of the content of the maps for any use to which the user intends to put it, and initiate dialogue with the relevant Network Service Provider before considering any investment relating to the subject matter of the maps. </p><p>In particular, users should note that Annual Deferral Values are indicative estimates which are subject to change as circumstances change, options are developed and more detailed investigation is done. Annual Deferral Values are not what the Network Service Provider is willing to pay for demand management support.  Refer to the Network Service Provider’s Demand Side Engagement Document for details on how they assess non-network solutions and determine payment levels.</p><p>Data supplied by Network Service Providers and other parties used in the formulation of the maps has been provided, compiled and assessed with due care, but may be incomplete and is subject to errors and to change over time as the network situation changes, load projections are amended and operational and technical matters affect network performance and investment. Such changes are likely but not guaranteed to have occurred both prior to and after publication of the maps. </p><p>A “Network Service Provider” referred to above is a person who engages in the activity of owning, controlling or operating a transmission or distribution system in the National Electricity Market and who is registered by AEMO as a Network Service Provider under Chapter 2 of the National Electricity Rules, and includes Electranet, SA Power Networks, TasNetworks, AEMO, United Energy Distribution, Ausnet Services, Jemena, Citipower-Powercor, Evoenergy, Transgrid, Ausgrid, Essential Energy, Endeavour Energy, Powerlink, Ergon Energy, Energex, Western Power, Horizon Power and Power and Water Corporation.</p>",
-                        "confirmation": true,
-                        "width": 600,
-                        "height": 550,
-                        "confirmText": "I Agree"
-                      },
-                      "url": "https://network-opportunity-maps.s3-ap-southeast-2.amazonaws.com/constraints/surge/peak_day.csv",
-                      "cacheDuration": "1h",
-                      "rectangle": {
-                        "west": 132,
-                        "south": -45,
-                        "east": 156,
-                        "north": -13
-                      },
-                      "dateFormat": "hh tt",
-                      "currentTime": "1900-01-01T18:00:00",
-                      "showUnmatchedRegionsWarning": false,
-                      "columns": [
-                        {
-                          "name": "capacity",
-                          "title": "Capacity (MVA)"
-                        },
-                        {
-                          "name": "load",
-                          "title": "Load (MVA)"
-                        },
-                        {
-                          "name": "percent_available",
-                          "title": "Percent of capacity (%)"
-                        }
-                      ],
-                      "activeStyle": "percent_available",
-                      "defaultStyle": {
-                        "color": {
-                          "binColors": [
-                            "rgba(26,152,80,1.0)",
-                            "rgba(102,189,99,1.0)",
-                            "rgba(166,217,106,1.0)",
-                            "rgba(217,239,139,1.0)",
-                            "rgba(255,255,191,1.0)",
-                            "rgba(254,224,139,1.0)",
-                            "rgba(253,174,97,1.0)",
-                            "rgba(244,109,67,1.0)",
-                            "rgba(215,48,39,1.0)"
-                          ],
-                          "numberOfBins": 9
-                        }
-                      },
-                      "featureInfoTemplate": {
-                        "name": "{{{asset_name}}}",
-                        "template": "<dl class='isf-info'>\n  <dt>Asset name</dt><dd>{{asset_name}}</dd>\n  <dt>Asset type</dt><dd>{{network_element_str}}</dd>\n  <dt>Network   </dt><dd>{{network}}</dd>\n  <dt>Notes     </dt><dd>{{investment_description}}</dd>\n\n{{#constraint_season}}\n  <dt>Constraint season(s)       </dt><dd>{{constraint_season}}</dd>\n{{/constraint_season}}\n  <dt>Peak day load shape used</dt><dd>{{peak_day_date}}</dd>\n <dt>Capacity ({{avail_cap_table.0.year}})</dt><dd>{{avail_cap_table.0.capacity}} MVA</dd>\n\n  <dt>Demand growth rate (MVA/yr)</dt><dd>{{demand_growth}}</dd>\n\n{{#commitment_year}}\n  <dt>Commitment Year            </dt><dd>{{commitment_year}}</dd>\n{{/commitment_year}}\n\n{{#invest_year}}\n  <dt>Proposed investment year   </dt><dd>{{invest_year}}</dd>\n{{/invest_year}}\n\n{{#data_currency}}\n  <dt>Data Currency              </dt><dd>{{data_currency}}</dd>\n{{/data_currency}}\n\n{{#next_update}}\n  <dt>Next Update                </dt><dd>{{next_update}}</dd>\n{{/next_update}}\n</dl>\n\n<div class='isf-note'>\n  Depending on NSP network security standards the information shown may or may not take\n  account of potential load transfers to delay constraints. Consult with distributors for\n  further details\n</div>\n\n<dl>\n{{#email}}\n  <dt>NSP Contact Email</dt><dd>{{email}}</dd>\n{{/email}}\n{{#phone}}\n  <dt>NSP Contact Phone</dt><dd>{{phone}}</dd>\n{{/phone}}\n</dl>\n\n{{#apr_link}}<a target='_blank' href='{{apr_link}}'>Annual Planning Report</a><br>{{/apr_link}}\n{{#info_link}}<a target='_blank' href='{{info_link}}'>NSP demand management information or maps</a><br>{{/info_link}}"
-                      },
-                      "shareKeys": [
-                        "Root Group/Electricity Infrastructure/Network Opportunities/Peak Day Available Capacity"
-                      ],
-                      "styles": [
-                        {
-                          "id": "percent_available",
-                          "color": {
-                            "binMaximums": [
-                              25,
-                              50,
-                              75,
-                              90,
-                              100
-                            ]
-                          }
-                        }
-                      ]
-                    },
-                    {
-                      "type": "csv",
-                      "name": "Proposed Investment",
-                      "id": "2fb9cae8",
-                      "info": [
-                        {
-                          "name": "Description of Data",
-                          "content": "<img style='float:right; width: 40%; max-width: 407px; clear: right;' src='http://static.aremi.data61.io/datasets/dance/2017/logos/ENA.svg'/><img src='http://static.aremi.data61.io/datasets/dance/UTS_ISF_Logo_Horizontal.png' style='float: right; width: 40%; max-width: 407px; clear: right;'><p>This layer shows the location of network investment currently planned to occur over the period 2016 to 2025. Depending on the Network Service Provider, this generally includes augmentation investment, but may also include the following investment categories: replacement/refurbishment, connections, other capital investment, and major opex. Where a project investment is committed, figures shown in the table do not reflect the reduction in risk due to committed project.</p><p>The colour of the circle at a given location reflects the timing of the investment. Grey shapes indicate investments that may already be committed. Red markers are located where investment is close to being committed, while green markers represent investments planned to occur closer to the end of the time horizon.</p><p>Selecting a circle reveals information on the value and cause of the network investment, and how much of the investment is potentially deferrable. An explanation of the additional information is given below:</p><ul><li><p><strong>Asset type:</strong> Type of network asset according with the following definitions:</p><ul><li><p><strong>Transmission Line:</strong> High voltage power lines (including switching stations) built and operated by the transmission network service provider.</p></li><li><p><strong>Transmission Terminal Station:</strong> High voltage transformation substation built and operated by transmission network service provider.</p></li><li><p><strong>Sub transmission line:</strong> Sub transmission power line connecting transmission station and zone substation assets generally built and operated by distribution network service providers.</p></li><li><p><strong>Sub transmission Substation:</strong> Transformation substation at the sub transmission voltage levels built and operated by transmission network service providers.</p></li><li><p><strong>Distribution Zone Substation:</strong> Transformation substation typically (but not exclusively) converting voltage to 11kV on the low voltage side, built and operated by distribution network service providers.</p></li><li><p><strong>Distribution Feeder (DF):</strong> Medium or high voltage feeder (e.g. 22 kV or 11 kV) emerging from the ZS to distribute power to downstream smaller, local distribution substations.</p></li></ul></li><li><p><strong>Network:</strong> Name of the Network Service Provider that manages the asset.</p></li><li><p><strong>Augmentation invest ($):</strong> Value of proposed network investment for each network asset, with &quot;Augmentation&quot; as the investment driver (demand growth related).</p></li><li><p><strong>Replacement/refurbishment invest ($):</strong> Value of proposed network investment for each network asset, with &quot;Replacement/Refurbishment&quot; as the investment driver (age/condition related).</p></li><li><p><strong>Connections invest ($):</strong> Value of proposed network investment for each network asset, with &quot;Connections&quot; as the investment driver.</p></li><li><p><strong>OPEX invest ($):</strong> Value of major, potentially deferrable, proposed operating expenditure (OPEX) for network assets. The value supplied is the estimated value of the preferred OPEX solution, and is aggregated into a single value for the investment year.</p></li><li><p><strong>Other invest ($):</strong> Value of proposed network investment for each network asset, for investment that falls into any category apart from the above 4 categories.</p></li><li><p><strong>Total investment value ($):</strong> Total value of proposed network investment for the network asset.</p></li><li><p><strong>Deferrable amount ($):</strong> Amount of the total investment value that is potentially deferrable through the deployment of non-network options.</p></li><li><p><strong>Investment year:</strong> Year when the proposed network investment will take place (financial year ending). Where investment will take place over multiple years, this corresponds only to the first year in which investment will take place.</p></li><li><p><strong>Commitment Year:</strong> Year when the network business intends to commit on the investment and demand management will no longer be considered.</p></li><li><p><strong>Constraint Season(s):</strong> Primary season of constraint driving network investment (Summer, Winter, Spring and/or Autumn).</p></li><li><p><strong>Notes:</strong> Additional information on the proposed investment.</p></li><li><p><strong>Annual deferral pool ($/yr):</strong> Total annualised amount of the investment (after applying capital costs and depreciation factors) that can be potentially deferred for a year.</p></li><li><p><strong>Potential value of 10 year deferral of investment:</strong> Potential net present value (NPV) if the investment is deferred for 10 years from the year of proposed investment.</p></li><li><p><strong>Average demand growth rate (MVA/yr):</strong> Average demand growth rate for the asset over the 10-year horizon.</p></li><li><p><strong>Reactive Support Requirement:</strong> Any support required for the asset in the form of reactive power indicated by the network business.</p></li></ul><p>The table and chart show the support required in MVA that would be needed to defer the proposed investment in one year.</p>"
-                        },
-                        {
-                          "name": "Plain English Disclaimer",
-                          "content": "<p>These maps are intended to make data on electricity network planning and investment more accessible and consistent. These maps should not be used to make investment decisions, and should only be used to assist in discussions with the local Network Service Provider (see list below). You are free to use the data but do so at your own risk. By accessing or using the maps and data the user agrees to irrevocably release the creators, authors, publishers and contributors to the maps, who include Network Service Providers, UTS and Energy Networks Australia (Providers), from all claims, actions, damages, judgments, losses, remedies or matters whether in tort, contract or under statute or otherwise, relating to the data. By proceeding, the user releases the Providers from all liability, and accepts the terms of this Disclaimer and the Full Legal Disclaimer shown below.</p>"
-                        },
-                        {
-                          "name": "Full Legal Disclaimer",
-                          "content": "<p>The Providers of these maps do not make any representations, guarantees or warranties as to the accuracy, reliability, completeness or currency of the data and content of the maps or that reasonable care has or will be taken by the Providers in compiling preparing or updating the maps.  Except to the extent not permitted by statute or any law, the Providers accept no liability (whether in negligence or tort, by contract or under statute or otherwise) for any error or omission, and specifically disclaim any liability for any costs, losses, claims, demands or liabilities of any kind suffered or incurred by any person by reason of or in connection with the maps or by any purported reliance on information contained in the maps.</p><p>While due care and attention has been taken in the presentation and transformation of available data and to verify the accuracy of the material published, the maps are not intended to be used as the basis for any investment decision.</p><p>Users should make their own detailed investigations as to the reliability and suitability of the content of the maps for any use to which the user intends to put it, and initiate dialogue with the relevant Network Service Provider before considering any investment relating to the subject matter of the maps. </p><p>In particular, users should note that Annual Deferral Values are indicative estimates which are subject to change as circumstances change, options are developed and more detailed investigation is done. Annual Deferral Values are not what the Network Service Provider is willing to pay for demand management support.  Refer to the Network Service Provider’s Demand Side Engagement Document for details on how they assess non-network solutions and determine payment levels.</p><p>Data supplied by Network Service Providers and other parties used in the formulation of the maps has been provided, compiled and assessed with due care, but may be incomplete and is subject to errors and to change over time as the network situation changes, load projections are amended and operational and technical matters affect network performance and investment. Such changes are likely but not guaranteed to have occurred both prior to and after publication of the maps. </p><p>A “Network Service Provider” referred to above is a person who engages in the activity of owning, controlling or operating a transmission or distribution system in the National Electricity Market and who is registered by AEMO as a Network Service Provider under Chapter 2 of the National Electricity Rules, and includes Electranet, SA Power Networks, TasNetworks, AEMO, United Energy Distribution, Ausnet Services, Jemena, Citipower-Powercor, Evoenergy, Transgrid, Ausgrid, Essential Energy, Endeavour Energy, Powerlink, Ergon Energy, Energex, Western Power, Horizon Power and Power and Water Corporation.</p>"
-                        },
-                        {
-                          "name": "Data Currency and Updates",
-                          "content": "This layer is updated annually. Currency and next update timing is specified when clicking on a data point in each layer."
-                        },
-                        {
-                          "name": "Data Supplier and Custodian",
-                          "content": "The data was supplied by Network Service Providers. The data is stored and processed into mapping outputs by Energy Networks Australia and the Institute of Sustainable Futures (ISF) at the University of Technology Sydney (UTS)."
-                        }
-                      ],
-                      "infoSectionOrder": [
-                        "Description of Data",
-                        "Data Currency and Updates",
-                        "Data Supplier and Custodian",
-                        "Plain English Disclaimer",
-                        "Full Legal Disclaimer"
-                      ],
-                      "initialMessage": {
-                        "key": "initialMessage.dance3",
-                        "title": "Network Opportunities Disclaimer",
-                        "content": "<strong>Plain English Disclaimer</strong><p><p>These maps are intended to make data on electricity network planning and investment more accessible and consistent. These maps should not be used to make investment decisions, and should only be used to assist in discussions with the local Network Service Provider (see list below). You are free to use the data but do so at your own risk. By accessing or using the maps and data the user agrees to irrevocably release the creators, authors, publishers and contributors to the maps, who include Network Service Providers, UTS and Energy Networks Australia (Providers), from all claims, actions, damages, judgments, losses, remedies or matters whether in tort, contract or under statute or otherwise, relating to the data. By proceeding, the user releases the Providers from all liability, and accepts the terms of this Disclaimer and the Full Legal Disclaimer shown below.</p><p><strong>Full Legal Disclaimer</strong><p><p>The Providers of these maps do not make any representations, guarantees or warranties as to the accuracy, reliability, completeness or currency of the data and content of the maps or that reasonable care has or will be taken by the Providers in compiling preparing or updating the maps.  Except to the extent not permitted by statute or any law, the Providers accept no liability (whether in negligence or tort, by contract or under statute or otherwise) for any error or omission, and specifically disclaim any liability for any costs, losses, claims, demands or liabilities of any kind suffered or incurred by any person by reason of or in connection with the maps or by any purported reliance on information contained in the maps.</p><p>While due care and attention has been taken in the presentation and transformation of available data and to verify the accuracy of the material published, the maps are not intended to be used as the basis for any investment decision.</p><p>Users should make their own detailed investigations as to the reliability and suitability of the content of the maps for any use to which the user intends to put it, and initiate dialogue with the relevant Network Service Provider before considering any investment relating to the subject matter of the maps. </p><p>In particular, users should note that Annual Deferral Values are indicative estimates which are subject to change as circumstances change, options are developed and more detailed investigation is done. Annual Deferral Values are not what the Network Service Provider is willing to pay for demand management support.  Refer to the Network Service Provider’s Demand Side Engagement Document for details on how they assess non-network solutions and determine payment levels.</p><p>Data supplied by Network Service Providers and other parties used in the formulation of the maps has been provided, compiled and assessed with due care, but may be incomplete and is subject to errors and to change over time as the network situation changes, load projections are amended and operational and technical matters affect network performance and investment. Such changes are likely but not guaranteed to have occurred both prior to and after publication of the maps. </p><p>A “Network Service Provider” referred to above is a person who engages in the activity of owning, controlling or operating a transmission or distribution system in the National Electricity Market and who is registered by AEMO as a Network Service Provider under Chapter 2 of the National Electricity Rules, and includes Electranet, SA Power Networks, TasNetworks, AEMO, United Energy Distribution, Ausnet Services, Jemena, Citipower-Powercor, Evoenergy, Transgrid, Ausgrid, Essential Energy, Endeavour Energy, Powerlink, Ergon Energy, Energex, Western Power, Horizon Power and Power and Water Corporation.</p>",
-                        "confirmation": true,
-                        "width": 600,
-                        "height": 550,
-                        "confirmText": "I Agree"
-                      },
-                      "url": "https://network-opportunity-maps.s3-ap-southeast-2.amazonaws.com/constraints/surge/proposed_investment.csv",
-                      "cacheDuration": "1h",
-                      "rectangle": {
-                        "west": 132,
-                        "south": -45,
-                        "east": 156,
-                        "north": -13
-                      },
-                      "columns": [
-                        {
-                          "name": "apr_link",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "asset_code",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "asset_name",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "asset_type",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "wacc_rate",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "depr_rate",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "asset_type_str",
-                          "title": "Asset Type"
-                        },
-                        {
-                          "name": "augmentation_invest",
-                          "title": "Augmentation Investment (m$)"
-                        },
-                        {
-                          "name": "commitment_year",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "connections_invest",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "constraint_season",
-                          "title": "Constraint Season"
-                        },
-                        {
-                          "name": "data_currency",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "deferrable_invest",
-                          "title": "Deferable Investment (m$)"
-                        },
-                        {
-                          "name": "demand_growth",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "email",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "file_link",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "info_link",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "investment_description",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "invest_year",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "invest_year_str",
-                          "title": "Investment Year",
-                          "replaceWithNullValues": [
-                            "2013 (committed)",
-                            "2014 (committed)",
-                            "2015 (committed)",
-                            "2016 (committed)",
-                            "2017 (committed)",
-                            "2018 (committed)",
-                            "2019 (committed)",
-                            "2020 (committed)",
-                            "2021 (committed)",
-                            "2022 (committed)",
-                            "2023 (committed)",
-                            "2024 (committed)",
-                            "2025 (committed)",
-                            "2026 (committed)"
-                          ]
-                        },
-                        {
-                          "name": "max_DM_percent",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "max_DM_percent_str",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "network",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "network_element",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "network_element_str",
-                          "title": "Network Element"
-                        },
-                        {
-                          "name": "next_update",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "opex",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "other_invest",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "phone",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "problem_context",
-                          "type": "hidden"
-                        },
-                        {
-                          "name": "replacement_invest",
-                          "title": "Replacement Investment (m$)"
-                        },
-                        {
-                          "name": "total_invest",
-                          "title": "Total Investment (m$)"
-                        },
-                        {
-                          "name": "annual_deferral_pool",
-                          "type": "hidden"
-                        }
-                      ],
-                      "styles": [
-                        {
-                          "id": "augmentation_invest",
-                          "color": {
-                            "colorPalette": "RdYlGn",
-                            "colorColumn": "invest_year_str",
-                            "legend": {
-                              "url": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/images/proposed-investment-legend.png"
-                            }
-                          },
-                          "pointSize": {
-                            "pointSizeColumn": "augmentation_invest"
-                          }
-                        },
-                        {
-                          "id": "constraint_season",
-                          "color": {
-                            "enumColors": [
-                              {
-                                "color": "rgb(218,0,22)",
-                                "value": "Summer"
-                              },
-                              {
-                                "color": "rgb(65,163,58)",
-                                "value": "Summer, Winter"
-                              },
-                              {
-                                "color": "rgb(44,105,169)",
-                                "value": "Winter"
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "id": "deferrable_invest",
-                          "color": {
-                            "colorPalette": "RdYlGn",
-                            "colorColumn": "invest_year_str",
-                            "legend": {
-                              "url": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/images/proposed-investment-legend.png"
-                            }
-                          },
-                          "pointSize": {
-                            "pointSizeColumn": "deferrable_invest"
-                          }
-                        },
-                        {
-                          "id": "invest_year_str",
-                          "color": {
-                            "nullColor": "rgba(177,178,177,1)",
-                            "nullLabel": "Committed",
-                            "colorPalette": "RdYlGn"
-                          }
-                        },
-                        {
-                          "id": "replacement_invest",
-                          "color": {
-                            "colorPalette": "RdYlGn",
-                            "colorColumn": "invest_year_str",
-                            "legend": {
-                              "url": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/images/proposed-investment-legend.png"
-                            }
-                          },
-                          "pointSize": {
-                            "pointSizeColumn": "replacement_invest"
-                          }
-                        },
-                        {
-                          "id": "total_invest",
-                          "color": {
-                            "colorPalette": "RdYlGn",
-                            "colorColumn": "invest_year_str",
-                            "legend": {
-                              "url": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/images/proposed-investment-legend.png"
-                            }
-                          },
-                          "pointSize": {
-                            "pointSizeColumn": "total_invest"
-                          }
-                        },
-                        {
-                          "id": "network_element_str",
-                          "color": {
-                            "enumColors": [
-                              {
-                                "value": "Distribution Feeder",
-                                "color": "#e41a1c"
-                              },
-                              {
-                                "value": "Zone Substation",
-                                "color": "#377eb8"
-                              },
-                              {
-                                "value": "Zone Substation (Proposed)",
-                                "color": "#4daf4a"
-                              },
-                              {
-                                "value": "Subtransmission Line",
-                                "color": "#984ea3"
-                              },
-                              {
-                                "value": "Subtransmission Station",
-                                "color": "#ff7f00"
-                              },
-                              {
-                                "value": "Transmission Connection Point",
-                                "color": "#ffff33"
-                              },
-                              {
-                                "value": "Transmission Line",
-                                "color": "#a65628"
-                              },
-                              {
-                                "value": "Transmission Station",
-                                "color": "#f781bf"
-                              }
-                            ]
-                          }
-                        }
-                      ],
-                      "activeStyle": "invest_year_str",
-                      "featureInfoTemplate": {
-                        "name": "{{{asset_name}}}",
-                        "template": "<dl class='isf-info'>\n  <dt>Asset name</dt><dd>{{asset_name}}</dd>\n  <dt>Asset type</dt><dd>{{network_element_str}}</dd>\n  <dt>Network   </dt><dd>{{network}}</dd>\n  <dt>Notes     </dt><dd>{{investment_description}}</dd>\n\n{{#augmentation_invest}}\n  <dt>Augmentation investment (m$)</dt><dd>{{augmentation_invest}}</dd>\n{{/augmentation_invest}}\n\n{{#replacement_invest}}\n  <dt>Replacement investment (m$) </dt><dd>{{replacement_invest}}</dd>\n{{/replacement_invest}}\n\n{{#connections_invest}}\n  <dt>Connections investment (m$) </dt><dd>{{connections_invest}}</dd>\n{{/connections_invest}}\n\n{{#other_invest}}\n  <dt>Other investment (m$)       </dt><dd>{{other_invest}}</dd>\n{{/other_invest}}\n\n  <dt>Total investment value (m$) </dt><dd>{{total_invest}}</dd>\n  <dt>Deferrable investment (m$)  </dt><dd>{{deferrable_invest}}{{^deferrable_invest}} 0 {{/deferrable_invest}}</dd>\n  <dt>Investment year             </dt><dd>{{invest_year_str}}</dd>\n  <dt>Commitment year             </dt><dd>{{commitment_year}} {{^commitment_year}} Not specified {{/commitment_year}}</dd>\n\n{{#data_currency}}\n  <dt>Data Currency               </dt><dd>{{data_currency}}</dd>\n{{/data_currency}}\n\n{{#next_update}}\n  <dt>Next Update                 </dt><dd>{{next_update}}</dd>\n{{/next_update}}\n</dl>\n\n<br>\n\n<div class='isf-note'>\n  Depending on NSP network security standards the information shown may or may not take\n  account of potential load transfers to delay constraints. Consult with distributors for\n  further details\n</div>\n<dl class='isf-info'>\n{{#email}}\n    <dt>NSP Contact Email</dt><dd>{{email}}</dd>\n{{/email}}\n\n{{#phone}}\n    <dt>NSP Contact Phone</dt><dd>{{phone}}</dd>\n{{/phone}}\n</dl>\n\n{{#apr_link}}    <a target='_blank' href='{{apr_link}}'>Annual Planning Report</a><br>{{/apr_link}}\n{{#info_link}} <a target='_blank' href='{{info_link}}'>NSP demand management information or maps</a><br> {{/info_link}}"
-                      },
-                      "shareKeys": [
-                        "Root Group/Electricity Infrastructure/Network Opportunities/Proposed Investment"
                       ]
                     },
                     {
