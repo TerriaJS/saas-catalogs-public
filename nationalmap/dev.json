@@ -7496,7 +7496,11 @@
                           "replaceWithNullValues": [
                             "MVAR support required",
                             "MVAR support requiredMVAR support required"
-                          ]
+                          ],
+                          "format": {
+                            "style": "currency",
+                            "currency": "AUD"
+                          }
                         }
                       ],
                       "styles": [
@@ -7506,12 +7510,12 @@
                             "nullColor": "rgba(3,154,206,1)",
                             "nullLabel": "MVAr support required",
                             "binMaximums": [
-                              0,
+                              10,
+                              50,
                               100,
                               200,
-                              300,
-                              400,
-                              500
+                              500,
+                              1000
                             ]
                           }
                         }
@@ -7520,7 +7524,7 @@
                       "defaultStyle": {
                         "color": {
                           "binColors": [
-                            "rgba(255,255,255,0.0)",
+                            "rgba(255,255,255,1.0)",
                             "rgba(255,255,35,1.0)",
                             "rgba(242,198,95,1.0)",
                             "rgba(222,112,68,1.0)",
@@ -7630,10 +7634,10 @@
                           "color": {
                             "binMaximums": [
                               -15,
-                              -9,
+                              -10,
                               -3,
                               3,
-                              9,
+                              10,
                               15
                             ]
                           }
@@ -8620,14 +8624,11 @@
                           "id": "percent_available",
                           "color": {
                             "binMaximums": [
-                              15,
-                              30,
-                              45,
-                              60,
+                              25,
+                              50,
                               75,
                               90,
-                              105,
-                              120
+                              100
                             ]
                           }
                         }
@@ -8827,13 +8828,24 @@
                         {
                           "name": "total_invest",
                           "title": "Total Investment (m$)"
+                        },
+                        {
+                          "name": "annual_deferral_pool",
+                          "type": "hidden"
                         }
                       ],
                       "styles": [
                         {
                           "id": "augmentation_invest",
                           "color": {
-                            "colorPalette": "RdYlGn"
+                            "colorPalette": "RdYlGn",
+                            "colorColumn": "invest_year_str",
+                            "legend": {
+                              "url": "http://localhost:8080/images/proposed-investment-legend.png"
+                            }
+                          },
+                          "pointSize": {
+                            "pointSizeColumn": "augmentation_invest"
                           }
                         },
                         {
@@ -8858,7 +8870,14 @@
                         {
                           "id": "deferrable_invest",
                           "color": {
-                            "colorPalette": "RdYlGn"
+                            "colorPalette": "RdYlGn",
+                            "colorColumn": "invest_year_str",
+                            "legend": {
+                              "url": "http://localhost:8080/images/proposed-investment-legend.png"
+                            }
+                          },
+                          "pointSize": {
+                            "pointSizeColumn": "deferrable_invest"
                           }
                         },
                         {
@@ -8872,13 +8891,66 @@
                         {
                           "id": "replacement_invest",
                           "color": {
-                            "colorPalette": "RdYlGn"
+                            "colorPalette": "RdYlGn",
+                            "colorColumn": "invest_year_str",
+                            "legend": {
+                              "url": "http://localhost:8080/images/proposed-investment-legend.png"
+                            }
+                          },
+                          "pointSize": {
+                            "pointSizeColumn": "replacement_invest"
                           }
                         },
                         {
                           "id": "total_invest",
                           "color": {
-                            "colorPalette": "RdYlGn"
+                            "colorPalette": "RdYlGn",
+                            "colorColumn": "invest_year_str",
+                            "legend": {
+                              "url": "http://localhost:8080/images/proposed-investment-legend.png"
+                            }
+                          },
+                          "pointSize": {
+                            "pointSizeColumn": "total_invest"
+                          }
+                        },
+                        {
+                          "id": "network_element_str",
+                          "color": {
+                            "enumColors": [
+                              {
+                                "value": "Distribution Feeder",
+                                "color": "#e41a1c"
+                              },
+                              {
+                                "value": "Zone Substation",
+                                "color": "#377eb8"
+                              },
+                              {
+                                "value": "Zone Substation (Proposed)",
+                                "color": "#4daf4a"
+                              },
+                              {
+                                "value": "Subtransmission Line",
+                                "color": "#984ea3"
+                              },
+                              {
+                                "value": "Subtransmission Station",
+                                "color": "#ff7f00"
+                              },
+                              {
+                                "value": "Transmission Connection Point",
+                                "color": "#ffff33"
+                              },
+                              {
+                                "value": "Transmission Line",
+                                "color": "#a65628"
+                              },
+                              {
+                                "value": "Transmission Station",
+                                "color": "#f781bf"
+                              }
+                            ]
                           }
                         }
                       ],
